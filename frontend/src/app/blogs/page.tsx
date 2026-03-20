@@ -1,6 +1,12 @@
 import { BlogCard } from "@/components/BlogCard";
 import { Button } from "@/components/ui/Button";
 import { Search, SlidersHorizontal } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Explore Blogs",
+  description: "Browse our expansive collection of tech, design, and architecture articles.",
+};
 
 const MOCK_POSTS = [
   ...Array.from({ length: 6 }).map((_, i) => ({

@@ -3,6 +3,17 @@ import { BlogCard } from "@/components/BlogCard";
 import { ArrowRight, Sparkles } from "lucide-react";
 import Link from "next/link";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Home",
+  description: "Read the latest trends in modern web development and architecture on ModernBlog.",
+  openGraph: {
+    title: "ModernBlog - Home",
+    description: "Read the latest trends in modern web development and architecture on ModernBlog.",
+  }
+};
+
 // Mock data for the static UI
 const MOCK_POSTS = [
   {

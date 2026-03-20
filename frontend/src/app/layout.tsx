@@ -6,8 +6,28 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata: Metadata = {
-  title: "ModernBlog - Next-Gen Publishing",
-  description: "A fast, scalable, and beautiful blogging platform.",
+  title: {
+    template: '%s | ModernBlog',
+    default: 'ModernBlog - Next-Gen Publishing Platform',
+  },
+  description: "A fast, scalable, and beautiful blogging platform built for creators and readers.",
+  keywords: ["blog", "publishing", "articles", "tech", "modern"],
+  authors: [{ name: "Your Name" }],
+  creator: "Your Name",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/",
+    title: "ModernBlog - Next-Gen Publishing Platform",
+    description: "A fast, scalable, and beautiful blogging platform built for creators and readers.",
+    siteName: "ModernBlog",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ModernBlog - Next-Gen Publishing Platform",
+    description: "A fast, scalable, and beautiful blogging platform built for creators and readers.",
+    creator: "@yourtwitterhandle",
+  },
 };
 
 export default function RootLayout({
