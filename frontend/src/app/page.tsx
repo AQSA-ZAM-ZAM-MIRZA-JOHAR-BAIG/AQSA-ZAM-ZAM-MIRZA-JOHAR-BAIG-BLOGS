@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/Button";
 import { BlogCard } from "@/components/BlogCard";
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight, Sparkles, Globe, Linkedin, Github, BarChart, PenTool, MessageSquare, Youtube, FileText, Book } from "lucide-react";
 import Link from "next/link";
 
 import { Metadata } from "next";
@@ -43,6 +43,20 @@ const MOCK_POSTS = [
     views: 2310,
     categories: ["Design", "UI/UX"]
   }
+];
+
+const ONLINE_PROFILES = [
+  { name: "Portfolio Site", description: "aqsa-zam-zam-mirza-johar-baig-portf.vercel.app", link: "https://aqsa-zam-zam-mirza-johar-baig-portf.vercel.app/", icon: Globe },
+  { name: "LinkedIn", description: "Aqsa Zam Zam Mirza Johar Baig", link: "https://www.linkedin.com/in/aqsa-zam-zam-mirza-johar-baig-28501b3b6/?isSelfProfile=true", icon: Linkedin },
+  { name: "GitHub", description: "@AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG", link: "https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG", icon: Github },
+  { name: "Kaggle", description: "@aqsamirza08", link: "https://www.kaggle.com/aqsamirza08", icon: BarChart },
+  { name: "Medium Blog", description: "@aqsamirza08", link: "https://aqsamirza08.medium.com/", icon: PenTool },
+  { name: "Stack Overflow", description: "Aqsa Zam Zam Mirza Johar Baig", link: "https://stackoverflow.com/users/32468898/aqsa-zam-zam-mirza-johar-baig", icon: MessageSquare },
+  { name: "YouTube", description: "@aqsamirza08", link: "https://www.youtube.com/@aqsamirza08", icon: Youtube },
+  { name: "YouTube Channel", description: "Aqsa Mirza (Channel)", link: "https://www.youtube.com/channel/UCtn3SjtE26v2pzdLeRPwJbQ", icon: Youtube },
+  { name: "Urdu Shayar", description: "aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app", link: "https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/", icon: FileText },
+  { name: "Law Dictionary", description: "aqsa-zam-zam-mirza-johar-baig-law-d.vercel.app", link: "https://aqsa-zam-zam-mirza-johar-baig-law-d.vercel.app/", icon: Book },
+  { name: "Constitutional Law", description: "aqsa-zam-zam-mirza-johar-baig-const.vercel.app", link: "https://aqsa-zam-zam-mirza-johar-baig-const.vercel.app/", icon: Book },
 ];
 
 export default function Home() {
@@ -97,6 +111,44 @@ export default function Home() {
           <Button variant="ghost" className="w-full flex items-center justify-center gap-2">
             View all posts <ArrowRight className="w-4 h-4" />
           </Button>
+        </div>
+      </section>
+
+      {/* Online Profiles Section */}
+      <section className="mb-12">
+        <div className="flex flex-col items-center text-center mb-10">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full glass border-primary/30 text-primary text-xs font-medium mb-4 uppercase tracking-wider">
+            Find Me Online
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold font-outfit mb-4 text-gradient">Online Profiles</h2>
+          <p className="text-muted-foreground max-w-2xl">
+            Connect with me across the web — from legal publications and academic repositories to code and content platforms.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {ONLINE_PROFILES.map((profile, index) => {
+            const Icon = profile.icon;
+            return (
+              <a
+                key={index}
+                href={profile.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group p-6 rounded-2xl glass-panel border border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-1 flex items-start gap-4 relative overflow-hidden"
+              >
+                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                <div className="p-3 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-black transition-colors">
+                  <Icon className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="font-semibold font-outfit text-lg mb-1 group-hover:text-primary transition-colors">{profile.name}</h3>
+                  <p className="text-sm text-muted-foreground truncate max-w-[200px] sm:max-w-[250px]">{profile.description}</p>
+                </div>
+                <ArrowRight className="w-4 h-4 absolute top-6 right-6 text-muted-foreground group-hover:text-primary transition-colors opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0" />
+              </a>
+            );
+          })}
         </div>
       </section>
       

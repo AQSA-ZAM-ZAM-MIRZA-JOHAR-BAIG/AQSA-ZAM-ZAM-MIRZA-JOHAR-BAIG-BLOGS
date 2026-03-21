@@ -7,26 +7,35 @@ const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | ModernBlog',
-    default: 'ModernBlog - Next-Gen Publishing Platform',
+    template: '%s | Aqsa Zam Zam Mirza Johar Baig - Blogs',
+    default: 'Aqsa Zam Zam Mirza Johar Baig | BA LLB | CLAT AIR 42 | Legal Researcher - Blogs',
   },
-  description: "A fast, scalable, and beautiful blogging platform built for creators and readers.",
-  keywords: ["blog", "publishing", "articles", "tech", "modern"],
-  authors: [{ name: "Your Name" }],
-  creator: "Your Name",
+  description: "Official blogs and articles by Aqsa Zam Zam Mirza Johar Baig - BA LLB student, CLAT AIR 42, Legal Researcher, and Developer.",
+  keywords: [
+    "Aqsa Zam Zam Mirza Johar Baig", 
+    "Aqsa Mirza", 
+    "BA LLB", 
+    "CLAT AIR 42", 
+    "Legal Researcher", 
+    "Developer", 
+    "Law Blogs", 
+    "Tech Blogs"
+  ],
+  authors: [{ name: "Aqsa Zam Zam Mirza Johar Baig" }],
+  creator: "Aqsa Zam Zam Mirza Johar Baig",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/",
-    title: "ModernBlog - Next-Gen Publishing Platform",
-    description: "A fast, scalable, and beautiful blogging platform built for creators and readers.",
-    siteName: "ModernBlog",
+    title: "Aqsa Zam Zam Mirza Johar Baig | BA LLB | CLAT AIR 42 - Blogs",
+    description: "Official blogs and articles by Aqsa Zam Zam Mirza Johar Baig - BA LLB student, CLAT AIR 42, Legal Researcher, and Developer.",
+    siteName: "Aqsa Zam Zam Mirza Johar Baig Blogs",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ModernBlog - Next-Gen Publishing Platform",
-    description: "A fast, scalable, and beautiful blogging platform built for creators and readers.",
-    creator: "@yourtwitterhandle",
+    title: "Aqsa Zam Zam Mirza Johar Baig | BA LLB | CLAT AIR 42 - Blogs",
+    description: "Official blogs and articles by Aqsa Zam Zam Mirza Johar Baig - BA LLB student, CLAT AIR 42, Legal Researcher, and Developer.",
+    creator: "@aqsamirza08",
   },
 };
 
