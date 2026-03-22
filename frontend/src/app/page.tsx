@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Code, BookOpen, PenTool, ExternalLink, MessageSquare } from "lucide-react";
 import { Metadata } from "next";
 
@@ -37,11 +38,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl relative shrink-0">
-          <div className="w-full h-full bg-secondary/50 flex items-center justify-center">
-            {/* Placeholder for professional photo */}
-            <span className="text-muted-foreground/50 font-outfit font-bold text-2xl px-8 text-center">AQSA ZAM ZAM MIRZA JOHAR BAIG [Image]</span>
-          </div>
+        <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl relative shrink-0 bg-secondary/50">
+          <Image 
+            src="/aq-pfp-1.jpeg" 
+            alt="AQSA ZAM ZAM MIRZA JOHAR BAIG" 
+            fill
+            className="object-cover"
+            priority
+          />
         </div>
       </section>
 
