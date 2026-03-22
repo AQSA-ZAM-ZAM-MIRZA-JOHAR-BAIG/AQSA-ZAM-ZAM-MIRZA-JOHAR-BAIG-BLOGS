@@ -1,33 +1,56 @@
 import { BlogCard } from "@/components/BlogCard";
-import { Button } from "@/components/ui/Button";
-import { Search, SlidersHorizontal } from "lucide-react";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { Search, BookOpen } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Explore Blogs",
-  description: "Browse our expansive collection of tech, design, and architecture articles.",
+  title: "Blogs",
+  description: "Read technical articles and coding tips authored by AQSA ZAM ZAM MIRZA JOHAR BAIG. Covering DSA, Machine Learning, and interview preparation.",
 };
 
 const MOCK_POSTS = [
-  ...Array.from({ length: 6 }).map((_, i) => ({
-    title: `Amazing Architecture Pattern #${i + 1}`,
-    slug: `amazing-architecture-pattern-${i + 1}`,
-    excerpt: "Dive into the specifics of this new architecture pattern that is taking the industry by storm.",
-    author: { name: "System Admin" },
-    createdAt: new Date().toISOString(),
-    views: Math.floor(Math.random() * 5000) + 100,
-    categories: ["Architecture", "Engineering"]
-  }))
+  {
+    title: "Mastering Data Structures and Algorithms (DSA) for Interviews",
+    slug: "mastering-dsa-interviews",
+    excerpt: "A comprehensive guide on tackling array and graph problems efficiently during technical rounds at top tech companies.",
+    author: { name: "AQSA ZAM ZAM MIRZA JOHAR BAIG" },
+    createdAt: new Date("2026-03-15").toISOString(),
+    views: 1250,
+    categories: ["DSA", "Interview Prep"]
+  },
+  {
+    title: "Deploying Machine Learning Models to AWS (Complete Guide)",
+    slug: "deploying-ml-models-aws",
+    excerpt: "Learn how to containerize your ML models with Docker and deploy them on scalable AWS EC2 instances with CI/CD.",
+    author: { name: "AQSA ZAM ZAM MIRZA JOHAR BAIG" },
+    createdAt: new Date("2026-02-28").toISOString(),
+    views: 3420,
+    categories: ["Machine Learning", "DevOps"]
+  },
+  {
+    title: "Software Engineering Interview Preparation Roadmap",
+    slug: "software-engineering-interview-roadmap",
+    excerpt: "My personal roadmap to cracking tough SDE interviews. Behavioral tips, system design basics, and coding patterns.",
+    author: { name: "AQSA ZAM ZAM MIRZA JOHAR BAIG" },
+    createdAt: new Date("2026-01-10").toISOString(),
+    views: 2100,
+    categories: ["Career", "Interview Prep"]
+  }
 ];
 
 export default function BlogsPage() {
   return (
-    <div className="flex flex-col gap-10">
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 border-b border-white/10 pb-8">
+    <div className="w-full max-w-6xl mx-auto py-8">
+      <Breadcrumbs />
+      
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 border-b border-white/10 pb-8 mb-8">
         <div className="max-w-xl">
-          <h1 className="text-4xl md:text-5xl font-extrabold font-outfit mb-4">Explore Blogs</h1>
+          <div className="inline-flex items-center justify-center p-2 bg-primary/10 rounded-full mb-4 text-primary">
+             <BookOpen className="w-6 h-6" />
+          </div>
+          <h1 className="text-4xl md:text-5xl font-extrabold font-outfit mb-4 text-gradient">Coding Blogs</h1>
           <p className="text-muted-foreground text-lg">
-            Discover articles, tutorials, and insights from industry experts.
+            Technical articles, tutorials, and insights authored by AQSA ZAM ZAM MIRZA JOHAR BAIG.
           </p>
         </div>
         
@@ -38,16 +61,14 @@ export default function BlogsPage() {
               type="text" 
               placeholder="Search articles..." 
               className="w-full bg-white/5 border border-white/10 rounded-lg pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary text-sm"
+              aria-label="Search"
             />
           </div>
-          <Button variant="outline" size="sm" className="px-3" aria-label="Filters">
-            <SlidersHorizontal className="w-4 h-4" />
-          </Button>
         </div>
       </div>
       
-      <div className="flex flex-wrap gap-2 mb-2">
-        {["All", "Technology", "Web Dev", "Design", "Architecture", "Engineering", "React", "Tutorial"].map((tag) => (
+      <div className="flex flex-wrap gap-2 mb-8">
+        {["All", "DSA", "Machine Learning", "Interview Prep", "DevOps", "Career"].map((tag) => (
           <button 
             key={tag} 
             className="px-4 py-1.5 rounded-full text-sm font-medium border border-white/10 bg-white/5 hover:bg-primary/20 hover:text-primary transition-colors hover:border-primary/30"
@@ -61,10 +82,6 @@ export default function BlogsPage() {
         {MOCK_POSTS.map((post, index) => (
           <BlogCard key={post.slug} post={post} index={index} />
         ))}
-      </div>
-      
-      <div className="flex justify-center mt-12">
-        <Button variant="glass" size="lg">Load More Articles</Button>
       </div>
     </div>
   );

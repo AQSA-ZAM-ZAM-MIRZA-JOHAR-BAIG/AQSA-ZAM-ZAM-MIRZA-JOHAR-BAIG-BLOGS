@@ -1,41 +1,52 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
+export const viewport: Viewport = {
+  themeColor: "#0f172a",
+  colorScheme: "dark light",
+};
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://aqsa-zam-zam-mirza-johar-baig.com"),
   title: {
-    template: '%s | Aqsa Zam Zam Mirza Johar Baig - Blogs',
-    default: 'Aqsa Zam Zam Mirza Johar Baig | BA LLB | CLAT AIR 42 | Legal Researcher - Blogs',
+    template: "AQSA ZAM ZAM MIRZA JOHAR BAIG | %s Portfolio",
+    default: "AQSA ZAM ZAM MIRZA JOHAR BAIG | Portfolio & Shayari",
   },
-  description: "Official blogs and articles by Aqsa Zam Zam Mirza Johar Baig - BA LLB student, CLAT AIR 42, Legal Researcher, and Developer.",
+  description: "Discover AQSA ZAM ZAM MIRZA JOHAR BAIG's coding projects, Urdu shayari, and blogs. A CS Student (VIIT Pune), Full-Stack Developer, and ML enthusiast from Nagpur.",
   keywords: [
-    "Aqsa Zam Zam Mirza Johar Baig", 
-    "Aqsa Mirza", 
-    "BA LLB", 
-    "CLAT AIR 42", 
-    "Legal Researcher", 
-    "Developer", 
-    "Law Blogs", 
-    "Tech Blogs"
+    "AQSA ZAM ZAM MIRZA JOHAR BAIG",
+    "AqsA Johar Baig portfolio",
+    "AqsA Zam Zam Mirza projects",
+    "AqsA Mirza Urdu shayari",
+    "AqsA Baig blogs coding",
+    "AqsA Zam Zam developer Nagpur",
+    "Computer Science student VIIT Pune",
+    "AI/ML specialization"
   ],
-  authors: [{ name: "Aqsa Zam Zam Mirza Johar Baig" }],
-  creator: "Aqsa Zam Zam Mirza Johar Baig",
+  authors: [{ name: "AQSA ZAM ZAM MIRZA JOHAR BAIG" }],
+  creator: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
     type: "website",
-    locale: "en_US",
-    url: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/",
-    title: "Aqsa Zam Zam Mirza Johar Baig | BA LLB | CLAT AIR 42 - Blogs",
-    description: "Official blogs and articles by Aqsa Zam Zam Mirza Johar Baig - BA LLB student, CLAT AIR 42, Legal Researcher, and Developer.",
-    siteName: "Aqsa Zam Zam Mirza Johar Baig Blogs",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Aqsa Zam Zam Mirza Johar Baig | BA LLB | CLAT AIR 42 - Blogs",
-    description: "Official blogs and articles by Aqsa Zam Zam Mirza Johar Baig - BA LLB student, CLAT AIR 42, Legal Researcher, and Developer.",
-    creator: "@aqsamirza08",
+    locale: "en_IN",
+    url: "https://aqsa-zam-zam-mirza-johar-baig.com",
+    title: "AQSA ZAM ZAM MIRZA JOHAR BAIG | Portfolio & Shayari",
+    description: "Discover AQSA ZAM ZAM MIRZA JOHAR BAIG's coding projects, Urdu shayari, and blogs. A CS Student (VIIT Pune) and Developer from Nagpur.",
+    siteName: "AQSA ZAM ZAM MIRZA JOHAR BAIG Portfolio",
   },
 };
 
@@ -44,33 +55,54 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
+    alternateName: ["AqsA Zam Zam Mirza Johar Baig", "AqsA Johar Baig"],
+    jobTitle: "CS Student & Developer",
+    knowsAbout: ["AI/ML", "DevOps", "Urdu Shayari", "Python", "Java", "Next.js"],
+    sameAs: [
+      "https://www.linkedin.com/in/aqsa-zam-zam-mirza-johar-baig",
+      "https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG"
+    ]
+  };
+
   return (
-    <html lang="en">
-      <body className={`${inter.variable} ${outfit.variable} font-sans antialiased min-h-screen flex flex-col`}>
-        {/* Navigation Bar Placeholder */}
-        <header className="fixed top-0 left-0 right-0 z-50 glass border-b border-white/10">
+    <html lang="en" className="dark" suppressHydrationWarning>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+        />
+        <link rel="canonical" href="https://aqsa-zam-zam-mirza-johar-baig.com" />
+      </head>
+      <body className={`${inter.variable} ${outfit.variable} font-sans antialiased min-h-screen flex flex-col bg-background text-foreground`}>
+        <header className="sticky top-0 left-0 right-0 z-50 glass border-b border-white/10">
           <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
-            <h1 className="text-2xl font-bold font-outfit text-gradient">ModernBlog</h1>
+            <a href="/" className="text-xl md:text-2xl font-bold font-outfit text-gradient tracking-tight" aria-label="AQSA ZAM ZAM MIRZA JOHAR BAIG Home">
+              AqsA Baig
+            </a>
             <nav className="hidden md:flex gap-6">
               <a href="/" className="text-sm font-medium hover:text-primary transition-colors">Home</a>
-              <a href="/blogs" className="text-sm font-medium hover:text-primary transition-colors">Blogs</a>
               <a href="/about" className="text-sm font-medium hover:text-primary transition-colors">About</a>
+              <a href="/portfolio" className="text-sm font-medium hover:text-primary transition-colors">Portfolio</a>
+              <a href="/blogs" className="text-sm font-medium hover:text-primary transition-colors">Blogs</a>
+              <a href="/urdu-shayari" className="text-sm font-medium hover:text-primary transition-colors">Urdu Shayari</a>
+              <a href="/contact" className="text-sm font-medium hover:text-primary transition-colors">Contact</a>
             </nav>
-            <div className="flex gap-4">
-              <button className="text-sm font-medium px-4 py-2 rounded-md hover:bg-white/5 transition-colors">Log in</button>
-              <button className="text-sm font-medium px-4 py-2 rounded-md bg-primary text-white hover:bg-primary/90 transition-colors">Sign up</button>
-            </div>
+            {/* Mobile menu button could go here */}
           </div>
         </header>
         
-        <main className="flex-1 pt-24 pb-12 px-4 max-w-7xl mx-auto w-full">
+        <main className="flex-1 pt-8 pb-12 px-4 max-w-7xl mx-auto w-full flex flex-col">
           {children}
         </main>
         
-        {/* Footer Placeholder */}
-        <footer className="border-t border-white/10 mt-auto py-8">
-          <div className="max-w-7xl mx-auto px-4 text-center text-muted-foreground text-sm">
-            © {new Date().getFullYear()} ModernBlog. All rights reserved.
+        <footer className="border-t border-white/10 mt-auto py-8 glass">
+          <div className="max-w-7xl mx-auto px-4 text-center text-muted-foreground text-sm flex flex-col items-center gap-2">
+            <p>By AQSA ZAM ZAM MIRZA JOHAR BAIG</p>
+            <p>© {new Date().getFullYear()} All rights reserved. Updated: March 2026</p>
           </div>
         </footer>
       </body>

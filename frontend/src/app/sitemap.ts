@@ -1,32 +1,16 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aqsa-zam-zam-mirza-johar-baig.com';
 
-  return [
-    {
-      url: baseUrl,
+  const routes = ['', '/about', '/portfolio', '/blogs', '/urdu-shayari', '/contact'].map(
+    (route) => ({
+      url: `${baseUrl}${route}`,
       lastModified: new Date(),
-      changeFrequency: 'daily',
-      priority: 1,
-    },
-    {
-      url: `${baseUrl}/blogs`,
-      lastModified: new Date(),
-      changeFrequency: 'daily',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/login`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/register`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-  ];
+      changeFrequency: route === '' ? 'weekly' : 'monthly' as const,
+      priority: route === '' ? 1.0 : route === '/about' || route === '/portfolio' ? 0.9 : 0.8,
+    })
+  );
+
+  return routes;
 }
