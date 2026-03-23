@@ -17,7 +17,7 @@ export default function Home() {
         
         <div className="flex-1 flex flex-col items-center md:items-start">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full glass border-primary/30 text-primary text-sm font-medium mb-6 animate-pulse">
-            <span>CS Student • Full-Stack Dev • Poet</span>
+            <span>CS Undergrad • Full-Stack Dev • AI & ML Enthusiast</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold font-outfit tracking-tight mb-6" style={{ WebkitTextStroke: "1px rgba(255,255,255,0.1)" }}>
@@ -25,15 +25,15 @@ export default function Home() {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl">
-            Computer Science student specializing in AI/ML at VIIT Pune. Developer from Nagpur building innovative web apps and writing soul-stirring Urdu shayari.
+            Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning at VIIT Pune and IIT Madras. Full-stack developer building scalable applications and cloud-based distributed systems.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
             <Link href="/portfolio" className="bg-primary hover:bg-primary/90 text-white font-semibold py-3 px-8 rounded-lg transition-colors text-center shadow-lg shadow-primary/25 flex items-center justify-center gap-2">
               <Code className="w-5 h-5" /> View Projects
             </Link>
-            <Link href="/urdu-shayari" className="glass hover:bg-white/5 border border-white/10 font-semibold py-3 px-8 rounded-lg transition-colors text-center flex items-center justify-center gap-2">
-              <PenTool className="w-5 h-5" /> Read Shayari
+            <Link href="/about" className="glass hover:bg-white/5 border border-white/10 font-semibold py-3 px-8 rounded-lg transition-colors text-center flex items-center justify-center gap-2">
+              <BookOpen className="w-5 h-5" /> About Me
             </Link>
           </div>
         </div>
@@ -61,7 +61,7 @@ export default function Home() {
             </h3>
             <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
               <p className="text-muted-foreground pl-7" itemProp="text">
-                AQSA ZAM ZAM MIRZA JOHAR BAIG is a Computer Science student at VIIT Pune specializing in AI/ML, a full-stack developer based in Nagpur, and a passionate Urdu poet.
+                AQSA ZAM ZAM MIRZA JOHAR BAIG is a Computer Science undergraduate at VIIT Pune and IIT Madras, specializing in AI/ML and building scalable full-stack applications.
               </p>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function Home() {
             </h3>
             <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
               <p className="text-muted-foreground pl-7" itemProp="text">
-                AqsA has built several impactful projects including an E-commerce backend, a Hospital Management System, ML models for predictions, an IPO platform, and DevOps/AWS deployments.
+                AqsA has built impactful projects including Mahalaxmi Tailors (MERN on AWS), FalcoVita (Healthcare Platform), and an IPO Success Predictor on Hugging Face.
               </p>
             </div>
           </div>
@@ -81,21 +81,16 @@ export default function Home() {
       </section>
       
       {/* Quick Nav Cards */}
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-        <Link href="/about" className="glass p-8 rounded-2xl hover:-translate-y-2 transition-transform duration-300 border border-white/10 group text-center">
-          <BookOpen className="w-12 h-12 mx-auto text-primary mb-4 group-hover:scale-110 transition-transform" />
-          <h2 className="text-2xl font-bold font-outfit mb-2">About Me</h2>
-          <p className="text-muted-foreground">Education, Tech Stack & Resume</p>
-        </Link>
-        <Link href="/blogs" className="glass p-8 rounded-2xl hover:-translate-y-2 transition-transform duration-300 border border-white/10 group text-center">
-          <ExternalLink className="w-12 h-12 mx-auto text-primary mb-4 group-hover:scale-110 transition-transform" />
-          <h2 className="text-2xl font-bold font-outfit mb-2">Coding Blogs</h2>
-          <p className="text-muted-foreground">DSA, ML Deployment, Tech Guides</p>
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+        <Link href="/portfolio" className="glass p-8 rounded-2xl hover:-translate-y-2 transition-transform duration-300 border border-white/10 group text-center">
+          <Code className="w-12 h-12 mx-auto text-primary mb-4 group-hover:scale-110 transition-transform" />
+          <h2 className="text-2xl font-bold font-outfit mb-2">Portfolio</h2>
+          <p className="text-muted-foreground">MERN on AWS, Healthcare & ML Projects</p>
         </Link>
         <Link href="/contact" className="glass p-8 rounded-2xl hover:-translate-y-2 transition-transform duration-300 border border-white/10 group text-center">
           <MessageSquare className="w-12 h-12 mx-auto text-primary mb-4 group-hover:scale-110 transition-transform" />
           <h2 className="text-2xl font-bold font-outfit mb-2">Get in Touch</h2>
-          <p className="text-muted-foreground">Contact me for collabs and opportunities</p>
+          <p className="text-muted-foreground">Hire me or collaborate on projects</p>
         </Link>
       </section>
     </div>

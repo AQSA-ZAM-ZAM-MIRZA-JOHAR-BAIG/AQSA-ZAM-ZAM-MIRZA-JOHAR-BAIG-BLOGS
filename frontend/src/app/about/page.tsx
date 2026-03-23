@@ -17,7 +17,7 @@ export default function AboutPage() {
           About AQSA ZAM ZAM MIRZA JOHAR BAIG
         </h1>
         <p className="text-xl text-muted-foreground flex items-center gap-2">
-          <MapPin className="w-5 h-5" /> Based in Nagpur, Maharashtra
+          <MapPin className="w-5 h-5" /> Pune, Maharashtra
         </p>
       </div>
 
@@ -29,11 +29,33 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-invert max-w-none">
               <p>
-                Hello! I am <strong>AQSA ZAM ZAM MIRZA JOHAR BAIG</strong>, a dedicated Computer Science student specializing in Artificial Intelligence and Machine Learning (AI/ML) at <strong>VIIT Pune</strong>.
+                As a Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning, I have strong foundations in Data Structures, Algorithms, Object-Oriented Programming, and System Design.
               </p>
               <p>
-                With a strong foundation in both software engineering and data science, I build scalable applications, deploy machine learning models, and create elegant backend architectures. My journey started in Nagpur, and I have since expanded my skills across the entire software development life cycle.
+                I am experienced in building scalable full-stack applications and cloud-based distributed systems using Java, Python, JavaScript, and AWS, with a proven ability to design RESTful APIs and deploy production-ready applications.
               </p>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold font-outfit mb-4 flex items-center gap-2 border-b border-white/10 pb-2">
+              <GraduationCap className="text-primary" /> Education
+            </h2>
+            <div className="space-y-4 text-muted-foreground">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="font-bold text-white">Vishwakarma Institute of Information Technology (VIIT), Pune</h3>
+                  <p>Bachelor of Technology in CS & E (AI & ML) | CGPA: 8.77</p>
+                </div>
+                <span className="text-sm">2023 – 2027</span>
+              </div>
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="font-bold text-white">Indian Institute of Technology (IITM), IIT Madras</h3>
+                  <p>Bachelor of Science in Data Science | CGPA: 7.44</p>
+                </div>
+                <span className="text-sm">2023 – 2027</span>
+              </div>
             </div>
           </section>
 
@@ -43,30 +65,33 @@ export default function AboutPage() {
             </h2>
             <div className="grid sm:grid-cols-2 gap-4">
               <div className="glass-panel p-4 rounded-xl border border-white/5">
-                <h3 className="font-semibold flex items-center gap-2 mb-3 text-primary"><Code2 className="w-4 h-4" /> Core Languages</h3>
-                <ul className="space-y-1 text-muted-foreground list-disc pl-5">
-                  <li>Python (Advanced)</li>
-                  <li>Java (OOP & DSA)</li>
-                  <li>JavaScript / TypeScript</li>
-                  <li>SQL & NoSQL</li>
+                <h3 className="font-semibold flex items-center gap-2 mb-3 text-primary"><Code2 className="w-4 h-4" /> Languages</h3>
+                <ul className="grid grid-cols-2 gap-1 text-xs text-muted-foreground list-disc pl-5">
+                  <li>Java</li>
+                  <li>Python</li>
+                  <li>C++</li>
+                  <li>JavaScript</li>
                 </ul>
               </div>
               <div className="glass-panel p-4 rounded-xl border border-white/5">
-                <h3 className="font-semibold flex items-center gap-2 mb-3 text-primary"><Database className="w-4 h-4" /> Frameworks & Libs</h3>
-                <ul className="space-y-1 text-muted-foreground list-disc pl-5">
-                  <li>Next.js & React</li>
-                  <li>Flask & Django</li>
-                  <li>Node.js & Express</li>
-                  <li>TensorFlow, Scikit-Learn</li>
+                <h3 className="font-semibold flex items-center gap-2 mb-3 text-primary"><Database className="w-4 h-4" /> Frameworks</h3>
+                <ul className="grid grid-cols-2 gap-1 text-xs text-muted-foreground list-disc pl-5">
+                  <li>React.js</li>
+                  <li>Vue.js</li>
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                  <li>Flask</li>
                 </ul>
               </div>
               <div className="glass-panel p-4 rounded-xl border border-white/5 sm:col-span-2">
                 <h3 className="font-semibold flex items-center gap-2 mb-3 text-primary"><Cloud className="w-4 h-4" /> Cloud & DevOps</h3>
-                <ul className="grid grid-cols-2 gap-2 text-muted-foreground list-disc pl-5">
-                  <li>AWS (EC2, S3, RDS)</li>
-                  <li>Docker & CI/CD Pipelines</li>
-                  <li>Git & GitHub Actions</li>
-                  <li>Vercel / Netlify Deployments</li>
+                <ul className="grid grid-cols-3 gap-2 text-xs text-muted-foreground list-disc pl-5">
+                  <li>AWS (EC2, S3, IAM)</li>
+                  <li>Lambda & RDS</li>
+                  <li>CloudFront</li>
+                  <li>CI/CD</li>
+                  <li>Git & GitHub</li>
+                  <li>Postman</li>
                 </ul>
               </div>
             </div>
@@ -93,7 +118,7 @@ export default function AboutPage() {
             <ul className="space-y-3 text-sm">
               <li className="flex justify-between">
                 <span className="text-muted-foreground">Location</span>
-                <span className="font-medium text-right">Nagpur, India</span>
+                <span className="font-medium text-right">Pune, Maharashtra</span>
               </li>
               <li className="flex justify-between">
                 <span className="text-muted-foreground">University</span>
@@ -101,7 +126,7 @@ export default function AboutPage() {
               </li>
               <li className="flex justify-between">
                 <span className="text-muted-foreground">Specialization</span>
-                <span className="font-medium text-right">AI / ML</span>
+                <span className="font-medium text-right">Computer Science (AI/ML)</span>
               </li>
             </ul>
           </div>

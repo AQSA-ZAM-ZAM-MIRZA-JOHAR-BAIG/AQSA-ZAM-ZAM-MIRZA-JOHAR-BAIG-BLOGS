@@ -1,7 +1,7 @@
 "use client";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { Send, Mail, MapPin, Linkedin, Github } from "lucide-react";
+import { Send, Mail, MapPin, Linkedin, Github, Phone } from "lucide-react";
 import { useState } from "react";
 
 export default function ContactPage() {
@@ -23,7 +23,7 @@ export default function ContactPage() {
           Get In Touch
         </h1>
         <p className="text-xl text-muted-foreground">
-          Looking to collaborate on an AI/ML project, need a full-stack developer, or just want to discuss Urdu Shayari? Drop a message!
+          Looking to collaborate on an AI/ML project, need a full-stack developer, or have a technical query? Drop a message!
         </p>
       </div>
 
@@ -41,8 +41,8 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-1">Email</p>
-                <a href="mailto:aqsa.mirza@example.com" className="text-lg font-medium hover:text-primary transition-colors">
-                  aqsa.mirza@example.com
+                <a href="mailto:aqsamirz6306@gmail.com" className="text-lg font-medium hover:text-primary transition-colors">
+                  aqsamirz6306@gmail.com
                 </a>
               </div>
             </div>
@@ -53,7 +53,19 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-1">Location</p>
-                <p className="text-lg font-medium">Nagpur, Maharashtra, India</p>
+                <p className="text-lg font-medium">Pune, Maharashtra, India</p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 bg-primary/10 text-primary rounded-full flex items-center justify-center shrink-0">
+                <Phone className="w-5 h-5" />
+              </div>
+              <div>
+                <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-1">Phone</p>
+                <a href="tel:+917219718451" className="text-lg font-medium hover:text-primary transition-colors">
+                  +91 7219718451
+                </a>
               </div>
             </div>
             
@@ -63,8 +75,8 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-1">LinkedIn</p>
-                <a href="https://linkedin.com/in/aqsa-zam-zam-mirza-johar-baig" target="_blank" rel="noopener noreferrer" className="text-lg font-medium hover:text-primary transition-colors">
-                  AQSA ZAM ZAM MIRZA JOHAR BAIG
+                <a href="https://www.linkedin.com/in/aqsamirza08" target="_blank" rel="noopener noreferrer" className="text-lg font-medium hover:text-primary transition-colors">
+                  aqsamirza08
                 </a>
               </div>
             </div>

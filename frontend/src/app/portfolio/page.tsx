@@ -9,38 +9,24 @@ export const metadata: Metadata = {
 
 const PROJECTS = [
   {
-    title: "E-Commerce Microservices Backend",
-    description: "A highly scalable backend architecture for an e-commerce platform using Node.js, Express, and MongoDB. Implemented microservices for inventory, user auth, and orders.",
-    tech: ["Node.js", "Express", "MongoDB", "Redis", "Docker"],
-    link: "#",
+    title: "Mahalaxmi Tailors",
+    description: "Production-ready e-commerce platform for a tailoring business. Features secure RBAC, JWT auth, Razorpay integration, and automated AWS deployment using CloudFormation.",
+    tech: ["MERN", "AWS", "Razorpay", "JWT", "DevOps"],
+    link: "https://mahalaxmi-tailors.shop",
     github: "#"
   },
   {
-    title: "Hospital Management System",
-    description: "Comprehensive HMS built to manage patient records, appointments, and billing. Features a secure REST API backend built with Python Flask and a React frontend.",
-    tech: ["Python", "Flask", "React", "PostgreSQL"],
-    link: "#",
+    title: "FalcoVita",
+    description: "Scalable healthcare platform with asynchronous task pipelines using Celery/Redis. Includes 20+ interactive data visualizations and multi-layer cryptographic security.",
+    tech: ["Vue.js", "Flask", "Redis", "Celery", "OpenAI"],
+    link: "https://falcovita.vercel.app",
     github: "#"
   },
   {
-    title: "Predictive ML Models (AI/ML)",
-    description: "Developed and deployed multiple machine learning models including a house price predictor and customer churn analysis using Scikit-Learn and TensorFlow.",
-    tech: ["Python", "TensorFlow", "Scikit-Learn", "Pandas"],
-    link: "#",
-    github: "#"
-  },
-  {
-    title: "IPO Allotment Status Platform",
-    description: "Real-time tracker for checking IPO allotment status across multiple registrars. Uses Next.js for SSR. SEO-optimized and fast loading.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Cheerio"],
-    link: "#",
-    github: "#"
-  },
-  {
-    title: "Automated AWS DevOps Pipeline",
-    description: "Designed a CI/CD pipeline using GitHub Actions to automatically lint, test, and deploy Dockerized applications to AWS EC2 instances.",
-    tech: ["AWS EC2", "Docker", "GitHub Actions", "Nginx"],
-    link: "#",
+    title: "IPO-Success-Predictor",
+    description: "Machine learning application achieving 80% prediction accuracy using Ensemble Learning. Deployed on Hugging Face with an interactive assessment interface.",
+    tech: ["Python", "Ensemble Learning", "Hugging Face", "Pandas"],
+    link: "https://huggingface.co/spaces/ayushdayal8/IPO-Success-Predictor",
     github: "#"
   }
 ];

@@ -14,18 +14,18 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://aqsa-zam-zam-mirza-johar-baig.com"),
   title: {
     template: "AQSA ZAM ZAM MIRZA JOHAR BAIG | %s Portfolio",
-    default: "AQSA ZAM ZAM MIRZA JOHAR BAIG | Portfolio & Shayari",
+    default: "AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI/ML Engineer",
   },
-  description: "Discover AQSA ZAM ZAM MIRZA JOHAR BAIG's coding projects, Urdu shayari, and blogs. A CS Student (VIIT Pune), Full-Stack Developer, and ML enthusiast from Nagpur.",
+  description: "Official portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG, a CS Undergrad at VIIT Pune & IIT Madras, specializing in AI/ML, Full-Stack Development and AWS Cloud.",
   keywords: [
     "AQSA ZAM ZAM MIRZA JOHAR BAIG",
-    "AqsA Johar Baig portfolio",
+    "AqsA Johar Baig software developer",
     "AqsA Zam Zam Mirza projects",
-    "AqsA Mirza Urdu shayari",
-    "AqsA Baig blogs coding",
-    "AqsA Zam Zam developer Nagpur",
-    "Computer Science student VIIT Pune",
-    "AI/ML specialization"
+    "AqsA Mirza AI ML engineer",
+    "AqsA Baig VIIT Pune",
+    "AqsA Zam Zam developer Pune",
+    "Computer Science student IIT Madras",
+    "AWS Certified Cloud Practitioner"
   ],
   authors: [{ name: "AQSA ZAM ZAM MIRZA JOHAR BAIG" }],
   creator: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
@@ -44,8 +44,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: "https://aqsa-zam-zam-mirza-johar-baig.com",
-    title: "AQSA ZAM ZAM MIRZA JOHAR BAIG | Portfolio & Shayari",
-    description: "Discover AQSA ZAM ZAM MIRZA JOHAR BAIG's coding projects, Urdu shayari, and blogs. A CS Student (VIIT Pune) and Developer from Nagpur.",
+    title: "AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer Portfolio",
+    description: "Official portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG, a CS Undergrad at VIIT Pune & IIT Madras.",
     siteName: "AQSA ZAM ZAM MIRZA JOHAR BAIG Portfolio",
   },
 };
@@ -60,11 +60,13 @@ export default function RootLayout({
     "@type": "Person",
     name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
     alternateName: ["AqsA Zam Zam Mirza Johar Baig", "AqsA Johar Baig"],
-    jobTitle: "CS Student & Developer",
-    knowsAbout: ["AI/ML", "DevOps", "Urdu Shayari", "Python", "Java", "Next.js"],
+    jobTitle: "Software Developer & AI/ML Engineer",
+    knowsAbout: ["AI/ML", "Full-Stack Development", "AWS Cloud", "Java", "Python", "Data Science"],
     sameAs: [
-      "https://www.linkedin.com/in/aqsa-zam-zam-mirza-johar-baig",
-      "https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG"
+      "https://www.linkedin.com/in/aqsamirza08",
+      "https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG",
+      "https://www.kaggle.com/aqsamirza08",
+      "https://aqsamirza08.medium.com/"
     ]
   };
 
@@ -88,7 +90,6 @@ export default function RootLayout({
               <a href="/about" className="text-sm font-medium hover:text-primary transition-colors">About</a>
               <a href="/portfolio" className="text-sm font-medium hover:text-primary transition-colors">Portfolio</a>
               <a href="/blogs" className="text-sm font-medium hover:text-primary transition-colors">Blogs</a>
-              <a href="/urdu-shayari" className="text-sm font-medium hover:text-primary transition-colors">Urdu Shayari</a>
               <a href="/contact" className="text-sm font-medium hover:text-primary transition-colors">Contact</a>
             </nav>
             {/* Mobile menu button could go here */}
