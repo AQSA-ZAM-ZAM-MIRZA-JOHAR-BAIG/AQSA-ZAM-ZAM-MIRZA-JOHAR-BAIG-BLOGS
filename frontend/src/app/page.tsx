@@ -40,7 +40,7 @@ export default function Home() {
 
         <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl relative shrink-0 bg-secondary/50">
           <Image 
-            src="/aq-pfp-1.jpeg" 
+            src="/profile.jpg" 
             alt="AQSA ZAM ZAM MIRZA JOHAR BAIG" 
             fill
             className="object-cover"

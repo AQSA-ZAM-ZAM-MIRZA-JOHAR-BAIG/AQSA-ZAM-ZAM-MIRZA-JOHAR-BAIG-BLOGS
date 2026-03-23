@@ -46,6 +46,7 @@ export const metadata: Metadata = {
     url: "https://aqsa-zam-zam-mirza-johar-baig.com",
     title: "AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer Portfolio",
     description: "Official portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG, a CS Undergrad at VIIT Pune & IIT Madras.",
+    images: [{ url: "/profile.jpg", width: 1200, height: 630, alt: "AQSA ZAM ZAM MIRZA JOHAR BAIG" }],
     siteName: "AQSA ZAM ZAM MIRZA JOHAR BAIG Portfolio",
   },
 };

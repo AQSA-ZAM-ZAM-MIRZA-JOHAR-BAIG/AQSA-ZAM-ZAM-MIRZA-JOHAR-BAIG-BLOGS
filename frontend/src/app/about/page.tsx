@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Download, MapPin, GraduationCap, Code2, Database, Cloud } from "lucide-react";
 
@@ -99,6 +100,15 @@ export default function AboutPage() {
         </div>
 
         <div className="space-y-6">
+          <div className="w-full aspect-square rounded-2xl overflow-hidden border border-white/10 relative bg-secondary/30 mb-6">
+            <Image 
+              src="/profile.jpg" 
+              alt="AQSA ZAM ZAM MIRZA JOHAR BAIG" 
+              fill
+              className="object-cover"
+            />
+          </div>
+          
           <div className="glass-panel p-6 rounded-2xl border border-white/10 sticky top-24">
             <h3 className="text-xl font-bold font-outfit mb-4">Resume</h3>
             <p className="text-sm text-muted-foreground mb-6">
