@@ -175,12 +175,10 @@ export default function Home() {
           </Link>
         </section>
 
-        {/* FAQ — FAQPage schema + E-E-A-T signals */}
+        {/* FAQ — FAQPage declared via JSON-LD only (see faqSchema above) */}
         <section
           aria-label="Frequently asked questions about AQSA ZAM ZAM MIRZA JOHAR BAIG"
           className="glass-panel p-8 rounded-2xl border border-white/5"
-          itemScope
-          itemType="https://schema.org/FAQPage"
         >
           <h2 className="text-3xl font-bold font-outfit mb-8 text-center">
             About AQSA ZAM ZAM MIRZA JOHAR BAIG
@@ -205,13 +203,11 @@ export default function Home() {
                 a: "Yes — available for full-stack consulting, AI/ML development, and AWS architecture projects. Contact via email at aqsamirz6306@gmail.com or LinkedIn.",
               },
             ].map(({ q, a }) => (
-              <div key={q} itemScope itemProp="mainEntity" itemType="https://schema.org/Question" className="space-y-2">
-                <h3 itemProp="name" className="font-semibold flex items-start gap-2 text-foreground">
+              <div key={q} className="space-y-2">
+                <h3 className="font-semibold flex items-start gap-2 text-foreground">
                   <ArrowRight className="w-4 h-4 text-primary shrink-0 mt-1" /> {q}
                 </h3>
-                <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-                  <p itemProp="text" className="text-muted-foreground text-sm pl-6">{a}</p>
-                </div>
+                <p className="text-muted-foreground text-sm pl-6">{a}</p>
               </div>
             ))}
           </div>
