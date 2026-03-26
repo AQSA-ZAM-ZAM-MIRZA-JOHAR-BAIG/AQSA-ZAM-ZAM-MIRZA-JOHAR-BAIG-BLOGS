@@ -1,27 +1,59 @@
 import { Metadata } from "next";
 import React from "react";
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  // In a real application, fetch the post from the database using the slug here.
-  // Example: const post = await getPostBySlug(params.slug);
-  
-  // Using a placeholder title derived from the slug for SEO demonstration
-  const formattedTitle = params.slug.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+const BASE_URL = "https://aqsa-zam-zam-mirza-johar-baig.com";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const formattedTitle = params.slug
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: formattedTitle,
+    author: {
+      "@type": "Person",
+      name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
+      url: BASE_URL,
+    },
+    publisher: {
+      "@type": "Person",
+      name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
+      url: BASE_URL,
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${BASE_URL}/blog/${params.slug}`,
+    },
+  };
 
   return {
-    title: formattedTitle,
-    description: `Read ${formattedTitle} on ModernBlog. Explore insights, tutorials, and deep technical dives.`,
+    title: `${formattedTitle} | AQSA ZAM ZAM MIRZA JOHAR BAIG`,
+    description: `${formattedTitle} — a technical article by AQSA ZAM ZAM MIRZA JOHAR BAIG, AI/ML engineer and full-stack developer at VIIT Pune & IIT Madras. Deep-dive insights, code snippets, and real-world case studies.`,
+    authors: [{ name: "AQSA ZAM ZAM MIRZA JOHAR BAIG", url: BASE_URL }],
+    alternates: { canonical: `${BASE_URL}/blog/${params.slug}` },
     openGraph: {
-      title: `${formattedTitle} | ModernBlog`,
-      description: `Read ${formattedTitle} on ModernBlog.`,
+      title: `${formattedTitle} | AQSA ZAM ZAM MIRZA JOHAR BAIG`,
+      description: `${formattedTitle} — written by AQSA ZAM ZAM MIRZA JOHAR BAIG, AI/ML & Full-Stack Developer.`,
       type: "article",
-      authors: ["ModernBlog Author"],
+      url: `${BASE_URL}/blog/${params.slug}`,
+      authors: ["AQSA ZAM ZAM MIRZA JOHAR BAIG"],
+      siteName: "AQSA ZAM ZAM MIRZA JOHAR BAIG Portfolio",
     },
     twitter: {
       card: "summary_large_image",
-      title: formattedTitle,
-      description: `Read ${formattedTitle} on ModernBlog.`,
-    }
+      title: `${formattedTitle} | AQSA ZAM ZAM MIRZA JOHAR BAIG`,
+      description: `${formattedTitle} — by AQSA ZAM ZAM MIRZA JOHAR BAIG.`,
+      creator: "@aqsamirza08",
+    },
+    other: {
+      "application/ld+json": JSON.stringify(articleSchema),
+    },
   };
 }
 

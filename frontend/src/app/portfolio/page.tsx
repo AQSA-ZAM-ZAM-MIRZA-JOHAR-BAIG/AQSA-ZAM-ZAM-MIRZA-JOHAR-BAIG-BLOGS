@@ -3,8 +3,10 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FolderGit2, ExternalLink, Github } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Projects",
-  description: "Explore the technical projects by AQSA ZAM ZAM MIRZA JOHAR BAIG. Featuring an E-commerce backend, Hospital System, ML models, IPO platform, and DevOps/AWS deployments."
+  title: "AQSA ZAM ZAM MIRZA JOHAR BAIG | Portfolio & Projects",
+  description:
+    "Explore production projects by AQSA ZAM ZAM MIRZA JOHAR BAIG: Mahalaxmi Tailors (MERN + AWS), FalcoVita healthcare AI platform (Flask + Redis), and IPO Success Predictor (80% ML accuracy on Hugging Face).",
+  alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig.com/portfolio" },
 };
 
 const PROJECTS = [
@@ -38,10 +40,11 @@ export default function PortfolioPage() {
       
       <div className="mb-12 text-center max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-extrabold font-outfit mb-4 text-gradient">
-          AqsA Zam Zam Mirza Projects
+          AQSA ZAM ZAM MIRZA JOHAR BAIG — Portfolio & Projects
         </h1>
         <p className="text-xl text-muted-foreground">
-          As a full-stack developer and AI/ML student, I build solutions that solve real problems. Here are some of my featured technical projects.
+          As an AI/ML engineer and full-stack developer studying at <strong>VIIT Pune</strong> and <strong>IIT Madras</strong>,
+          I build production-grade applications. Below are my featured projects — each deployed, functional, and impacting real users.
         </p>
       </div>
 

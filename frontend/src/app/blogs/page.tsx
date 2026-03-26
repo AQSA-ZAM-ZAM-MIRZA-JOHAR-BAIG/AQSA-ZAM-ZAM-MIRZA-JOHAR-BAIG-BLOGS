@@ -4,8 +4,10 @@ import { Search, BookOpen } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blogs",
-  description: "Read technical articles and coding tips authored by AQSA ZAM ZAM MIRZA JOHAR BAIG. Covering DSA, Machine Learning, and interview preparation.",
+  title: "AQSA ZAM ZAM MIRZA JOHAR BAIG | Technical Blog & Articles",
+  description:
+    "Read AI/ML tutorials, Next.js guides, AWS deployment walkthroughs, and DSA interview prep articles authored by AQSA ZAM ZAM MIRZA JOHAR BAIG — CS student at VIIT Pune & IIT Madras.",
+  alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig.com/blogs" },
 };
 
 const MOCK_POSTS = [
@@ -48,9 +50,9 @@ export default function BlogsPage() {
           <div className="inline-flex items-center justify-center p-2 bg-primary/10 rounded-full mb-4 text-primary">
              <BookOpen className="w-6 h-6" />
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold font-outfit mb-4 text-gradient">Coding Blogs</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold font-outfit mb-4 text-gradient">Blog by AQSA ZAM ZAM MIRZA JOHAR BAIG</h1>
           <p className="text-muted-foreground text-lg">
-            Technical articles, tutorials, and insights authored by AQSA ZAM ZAM MIRZA JOHAR BAIG.
+            Technical articles on AI/ML, AWS, Next.js, and full-stack development — plus Urdu Shayari. Written by AQSA ZAM ZAM MIRZA JOHAR BAIG, CS undergrad at VIIT Pune & IIT Madras.
           </p>
         </div>
         

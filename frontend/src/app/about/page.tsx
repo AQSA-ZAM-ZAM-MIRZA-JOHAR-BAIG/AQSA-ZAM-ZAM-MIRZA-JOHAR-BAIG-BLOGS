@@ -4,8 +4,10 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Download, MapPin, GraduationCap, Code2, Database, Cloud } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About",
-  description: "Learn about AQSA ZAM ZAM MIRZA JOHAR BAIG, a Computer Science student at VIIT Pune, Python/Java developer, and AI/ML enthusiast from Nagpur."
+  title: "AQSA ZAM ZAM MIRZA JOHAR BAIG | About — AI/ML Engineer & VIIT Pune Student",
+  description:
+    "AQSA ZAM ZAM MIRZA JOHAR BAIG is a B.Tech AI/ML student at VIIT Pune (CGPA 8.77) and IIT Madras Data Science scholar. AWS Certified Cloud Practitioner. Expert in Python, Java, Next.js, Flask, and scalable cloud architecture.",
+  alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig.com/about" },
 };
 
 export default function AboutPage() {
