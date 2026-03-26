@@ -244,8 +244,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <head>
-        {/* Preload critical resources */}
-        <link rel="preload" href="/profile.jpg" as="image" />
+        {/* Font connections — preload handled per-page by next/image priority prop */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
