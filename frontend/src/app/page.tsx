@@ -215,7 +215,7 @@ export default function Home() {
 
         {/* Quick Nav */}
         <section aria-label="Quick navigation" className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-          <Link href="/blogs" className="glass p-8 rounded-2xl hover:-translate-y-2 transition-transform duration-300 border border-white/10 group text-center">
+          <Link href="/blog" className="glass p-8 rounded-2xl hover:-translate-y-2 transition-transform duration-300 border border-white/10 group text-center">
             <BookOpen className="w-12 h-12 mx-auto text-primary mb-4 group-hover:scale-110 transition-transform" />
             <h2 className="text-2xl font-bold font-outfit mb-2">Technical Blog</h2>
             <p className="text-muted-foreground">DSA, ML deployment, AWS, Next.js tutorials by AQSA ZAM ZAM MIRZA JOHAR BAIG</p>

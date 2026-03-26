@@ -224,7 +224,7 @@ export default function RootLayout({
     author: { "@id": `${BASE_URL}/#person` },
     potentialAction: {
       "@type": "SearchAction",
-      target: { "@type": "EntryPoint", urlTemplate: `${BASE_URL}/blogs?q={search_term_string}` },
+      target: { "@type": "EntryPoint", urlTemplate: `${BASE_URL}/blog?q={search_term_string}` },
       "query-input": "required name=search_term_string",
     },
   };
@@ -236,7 +236,7 @@ export default function RootLayout({
       { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
       { "@type": "ListItem", position: 2, name: "About", item: `${BASE_URL}/about` },
       { "@type": "ListItem", position: 3, name: "Portfolio", item: `${BASE_URL}/portfolio` },
-      { "@type": "ListItem", position: 4, name: "Blogs", item: `${BASE_URL}/blogs` },
+      { "@type": "ListItem", position: 4, name: "Blogs", item: `${BASE_URL}/blog` },
       { "@type": "ListItem", position: 5, name: "Contact", item: `${BASE_URL}/contact` },
     ],
   };
@@ -281,7 +281,7 @@ export default function RootLayout({
               <Link href="/" className="text-sm font-medium hover:text-primary transition-colors">Home</Link>
               <Link href="/about" className="text-sm font-medium hover:text-primary transition-colors">About</Link>
               <Link href="/portfolio" className="text-sm font-medium hover:text-primary transition-colors">Portfolio</Link>
-              <Link href="/blogs" className="text-sm font-medium hover:text-primary transition-colors">Blogs</Link>
+              <Link href="/blog" className="text-sm font-medium hover:text-primary transition-colors">Blogs</Link>
               <Link href="/urdu-shayari" className="text-sm font-medium hover:text-primary transition-colors">Shayari</Link>
               <Link href="/contact" className="text-sm font-medium hover:text-primary transition-colors">Contact</Link>
             </nav>
@@ -299,7 +299,7 @@ export default function RootLayout({
             <nav aria-label="Footer navigation" className="flex flex-wrap justify-center gap-4 text-xs">
               <Link href="/about" className="hover:text-primary transition-colors">About</Link>
               <Link href="/portfolio" className="hover:text-primary transition-colors">Portfolio</Link>
-              <Link href="/blogs" className="hover:text-primary transition-colors">Blogs</Link>
+              <Link href="/blog" className="hover:text-primary transition-colors">Blogs</Link>
               <Link href="/urdu-shayari" className="hover:text-primary transition-colors">Urdu Shayari</Link>
               <Link href="/contact" className="hover:text-primary transition-colors">Contact</Link>
             </nav>

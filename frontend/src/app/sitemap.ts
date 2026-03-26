@@ -1,14 +1,14 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aqsa-zam-zam-mirza-johar-baig.com';
+  const baseUrl = 'https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app';
   const now = new Date();
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${baseUrl}/`,             lastModified: now,                       changeFrequency: 'weekly',  priority: 1.0 },
     { url: `${baseUrl}/about`,        lastModified: now,                       changeFrequency: 'monthly', priority: 0.9 },
     { url: `${baseUrl}/portfolio`,    lastModified: now,                       changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${baseUrl}/blogs`,        lastModified: now,                       changeFrequency: 'weekly',  priority: 0.85 },
+    { url: `${baseUrl}/blog`,        lastModified: now,                       changeFrequency: 'weekly',  priority: 0.85 },
     { url: `${baseUrl}/urdu-shayari`, lastModified: now,                       changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/contact`,      lastModified: now,                       changeFrequency: 'yearly',  priority: 0.7 },
   ];
