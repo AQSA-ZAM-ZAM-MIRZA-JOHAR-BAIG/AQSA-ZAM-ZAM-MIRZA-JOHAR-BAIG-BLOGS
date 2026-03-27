@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "AQSA ZAM ZAM MIRZA JOHAR BAIG | Portfolio & Projects",
   description:
     "Explore production projects by AQSA ZAM ZAM MIRZA JOHAR BAIG: Mahalaxmi Tailors (MERN + AWS), FalcoVita healthcare AI platform (Flask + Redis), and IPO Success Predictor (80% ML accuracy on Hugging Face).",
-  alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig.com/portfolio" },
+  alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/portfolio" },
 };
 
 const PROJECTS = [

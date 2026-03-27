@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "AQSA ZAM ZAM MIRZA JOHAR BAIG | Technical Blog & Articles",
   description:
     "Read AI/ML tutorials, Next.js guides, AWS deployment walkthroughs, and DSA interview prep articles authored by AQSA ZAM ZAM MIRZA JOHAR BAIG — CS student at VIIT Pune & IIT Madras.",
-  alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig.com/blog" },
+  alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/blog" },
 };
 
 const MOCK_POSTS = [

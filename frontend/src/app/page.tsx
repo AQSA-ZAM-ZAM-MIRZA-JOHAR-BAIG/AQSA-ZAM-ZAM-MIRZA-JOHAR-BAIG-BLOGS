@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "AI/ML Engineer & Full-Stack Developer | Home",
   description:
     "AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML engineer, Full-Stack developer (Next.js 16, React 19, Flask), AWS Certified Cloud Practitioner, VIIT Pune & IIT Madras student. Explore ML projects, technical blogs & Urdu Shayari.",
-  alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig.com/" },
+  alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/" },
 };
 
 const faqSchema = {
