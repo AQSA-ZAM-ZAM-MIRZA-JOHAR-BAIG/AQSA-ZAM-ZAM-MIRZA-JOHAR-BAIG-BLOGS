@@ -1,8 +1,12 @@
 import { MetadataRoute } from 'next';
 
+export const dynamic = 'force-static';
+export const revalidate = 86400; // optional but recommended
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app';
   const now = new Date();
+
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${baseUrl}/`,             lastModified: now,                       changeFrequency: 'weekly',  priority: 1.0 },
