@@ -210,6 +210,13 @@ export default function RootLayout({
       "https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG",
       "https://www.kaggle.com/aqsamirza08",
       "https://aqsamirza08.medium.com/",
+      "https://stackoverflow.com/users/32468898/aqsa-zam-zam-mirza-johar-baig",
+      "https://www.youtube.com/@aqsamirza08",
+      "https://aqsa-zam-zam-mirza-johar-baig-portf.vercel.app/",
+      "https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/",
+      "https://aqsa-zam-zam-mirza-johar-baig-const.vercel.app/",
+      "https://aqsa-zam-zam-mirza-johar-baig-law-d.vercel.app/",
+      "https://aqsa-zam-zam-mirza-johar-baig-law-f.vercel.app/"
     ],
   };
 
@@ -292,18 +299,47 @@ export default function RootLayout({
           {children}
         </main>
 
-        <footer className="border-t border-white/10 mt-auto py-8 glass">
-          <div className="max-w-7xl mx-auto px-4 text-center text-muted-foreground text-sm flex flex-col items-center gap-3">
-            <p className="font-semibold text-foreground">AQSA ZAM ZAM MIRZA JOHAR BAIG</p>
-            <p>AI/ML Engineer · Full-Stack Developer · AWS Cloud Practitioner · VIIT Pune & IIT Madras</p>
-            <nav aria-label="Footer navigation" className="flex flex-wrap justify-center gap-4 text-xs">
-              <Link href="/about" className="hover:text-primary transition-colors">About</Link>
-              <Link href="/portfolio" className="hover:text-primary transition-colors">Portfolio</Link>
-              <Link href="/blog" className="hover:text-primary transition-colors">Blogs</Link>
-              <Link href="/urdu-shayari" className="hover:text-primary transition-colors">Urdu Shayari</Link>
-              <Link href="/contact" className="hover:text-primary transition-colors">Contact</Link>
-            </nav>
-            <p>© {new Date().getFullYear()} AQSA ZAM ZAM MIRZA JOHAR BAIG. All rights reserved.</p>
+        <footer className="border-t border-white/10 mt-auto py-12 glass">
+          <div className="max-w-7xl mx-auto px-4 flex flex-col items-center gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 w-full max-w-4xl">
+              <div className="text-center md:text-left">
+                <h3 className="text-foreground font-bold mb-4 uppercase text-xs tracking-widest">Navigation</h3>
+                <nav className="flex flex-col gap-2 text-sm text-muted-foreground">
+                  <Link href="/about" className="hover:text-primary transition-colors">About Me</Link>
+                  <Link href="/portfolio" className="hover:text-primary transition-colors">Portfolio</Link>
+                  <Link href="/blog" className="hover:text-primary transition-colors">Technical Blogs</Link>
+                  <Link href="/urdu-shayari" className="hover:text-primary transition-colors">Urdu Shayari</Link>
+                  <Link href="/contact" className="hover:text-primary transition-colors">Contact</Link>
+                </nav>
+              </div>
+
+              <div className="text-center md:text-left">
+                <h3 className="text-foreground font-bold mb-4 uppercase text-xs tracking-widest">Connect</h3>
+                <nav className="flex flex-col gap-2 text-sm text-muted-foreground">
+                  <a href="https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG" target="_blank" rel="noopener" className="hover:text-primary transition-colors">GitHub</a>
+                  <a href="https://linkedin.com/in/aqsamirza08" target="_blank" rel="noopener" className="hover:text-primary transition-colors">LinkedIn</a>
+                  <a href="https://stackoverflow.com/users/32468898/aqsa-zam-zam-mirza-johar-baig" target="_blank" rel="noopener" className="hover:text-primary transition-colors">StackOverflow</a>
+                  <a href="https://www.youtube.com/@aqsamirza08" target="_blank" rel="noopener" className="hover:text-primary transition-colors">YouTube</a>
+                </nav>
+              </div>
+
+              <div className="text-center md:text-left">
+                <h3 className="text-foreground font-bold mb-4 uppercase text-xs tracking-widest">Network</h3>
+                <nav className="flex flex-col gap-2 text-sm text-muted-foreground">
+                  <a href="https://aqsa-zam-zam-mirza-johar-baig-portf.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Main Portfolio</a>
+                  <a href="https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Urdu Shayari Site</a>
+                  <a href="https://aqsa-zam-zam-mirza-johar-baig-const.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Constitutional Law</a>
+                  <a href="https://aqsa-zam-zam-mirza-johar-baig-law-d.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Law Dictionary</a>
+                  <a href="https://aqsa-zam-zam-mirza-johar-baig-law-f.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Law for Beginners</a>
+                </nav>
+              </div>
+            </div>
+
+            <div className="text-center text-muted-foreground text-sm flex flex-col items-center gap-3 pt-8 border-t border-white/5 w-full">
+              <p className="font-semibold text-foreground">AQSA ZAM ZAM MIRZA JOHAR BAIG</p>
+              <p>AI/ML Engineer · Full-Stack Developer · AWS Cloud Practitioner · VIIT Pune & IIT Madras</p>
+              <p>© {new Date().getFullYear()} All rights reserved. Updated: March 2026</p>
+            </div>
           </div>
         </footer>
       </body>
