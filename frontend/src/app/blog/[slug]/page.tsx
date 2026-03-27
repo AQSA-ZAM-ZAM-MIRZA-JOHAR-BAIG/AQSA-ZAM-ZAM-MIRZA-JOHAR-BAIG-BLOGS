@@ -3,7 +3,6 @@
 import { Button } from "@/components/ui/Button";
 import { ArrowLeft, MessageCircle, Share2, Heart, Bookmark } from "lucide-react";
 import Link from "next/link";
-import { motion } from "framer-motion";
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
   // In a real app we'd fetch based on params.slug. Using mock for now.
@@ -71,18 +70,18 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         
         {/* Sticky Sidebar for desktop */}
         <aside className="hidden md:flex flex-col gap-6 sticky top-24 h-max w-16 items-center">
-          <motion.button whileHover={{ y: -2 }} className="p-3 bg-white/5 hover:bg-primary/20 text-muted-foreground hover:text-primary rounded-full transition-colors border border-white/5">
+          <button className="p-3 bg-white/5 hover:bg-primary/20 text-muted-foreground hover:text-primary rounded-full transition-all border border-white/5 hover:-translate-y-0.5">
             <Heart className="w-5 h-5" />
-          </motion.button>
-          <motion.button whileHover={{ y: -2 }} className="p-3 bg-white/5 hover:bg-primary/20 text-muted-foreground hover:text-primary rounded-full transition-colors border border-white/5">
+          </button>
+          <button className="p-3 bg-white/5 hover:bg-primary/20 text-muted-foreground hover:text-primary rounded-full transition-all border border-white/5 hover:-translate-y-0.5">
             <MessageCircle className="w-5 h-5" />
-          </motion.button>
-          <motion.button whileHover={{ y: -2 }} className="p-3 bg-white/5 hover:bg-primary/20 text-muted-foreground hover:text-primary rounded-full transition-colors border border-white/5">
+          </button>
+          <button className="p-3 bg-white/5 hover:bg-primary/20 text-muted-foreground hover:text-primary rounded-full transition-all border border-white/5 hover:-translate-y-0.5">
             <Bookmark className="w-5 h-5" />
-          </motion.button>
-          <motion.button whileHover={{ y: -2 }} className="p-3 bg-white/5 hover:bg-primary/20 text-muted-foreground hover:text-primary rounded-full transition-colors border border-white/5">
+          </button>
+          <button className="p-3 bg-white/5 hover:bg-primary/20 text-muted-foreground hover:text-primary rounded-full transition-all border border-white/5 hover:-translate-y-0.5">
             <Share2 className="w-5 h-5" />
-          </motion.button>
+          </button>
         </aside>
         
         {/* Mobile Action Bar */}
