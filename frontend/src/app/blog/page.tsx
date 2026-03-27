@@ -85,6 +85,36 @@ export default function BlogsPage() {
           <BlogCard key={post.slug} post={post} index={index} />
         ))}
       </div>
+
+      <section className="mt-16 glass-panel p-8 rounded-2xl border border-white/5">
+        <h2 className="text-2xl font-bold font-outfit mb-6">What You Will Find on This Blog</h2>
+        <div className="grid md:grid-cols-2 gap-8 prose prose-invert max-w-none text-muted-foreground">
+          <div>
+            <h3 className="font-semibold text-foreground mb-2">AI & Machine Learning</h3>
+            <p>
+              From building your first scikit-learn pipeline to deploying ensemble models on Hugging Face, <strong>AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> covers the complete machine learning workflow. Topics include feature engineering, model evaluation, handling imbalanced datasets, and making ML accessible to real applications — not just notebooks.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground mb-2">AWS Cloud & DevOps</h3>
+            <p>
+              Practical AWS guides written by someone who has used these services in production. Deploying Node.js backends to EC2, writing CloudFormation templates for reproducible infrastructure, setting up CloudFront for CDN, and automating deployments with GitHub Actions CI/CD pipelines — all explained clearly.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground mb-2">Next.js & Full-Stack Development</h3>
+            <p>
+              Next.js 16 App Router, React 19 Server Components, Server Actions, parallel routes, and performance optimization techniques. Written from the perspective of a developer who uses Next.js for production deployments, not just tutorials.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground mb-2">DSA & Interview Preparation</h3>
+            <p>
+              Data structures and algorithms breakdowns focused on what actually appears in technical interviews at top tech companies. Array patterns, graph traversal, dynamic programming, and system design — approached with clear explanations and working code in Python and Java.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

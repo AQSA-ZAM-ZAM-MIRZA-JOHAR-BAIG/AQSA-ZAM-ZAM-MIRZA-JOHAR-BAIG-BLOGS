@@ -99,6 +99,57 @@ export default function AboutPage() {
               </div>
             </div>
           </section>
+
+          <section>
+            <h2 className="text-2xl font-bold font-outfit mb-4 border-b border-white/10 pb-2">
+              My Story
+            </h2>
+            <div className="prose prose-invert max-w-none space-y-4 text-muted-foreground">
+              <p>
+                My journey into software development started with a deep curiosity about how things work under the hood. When I cleared <strong>JEE Advanced 2023</strong> and joined <strong>Vishwakarma Institute of Information Technology (VIIT), Pune</strong> for B.Tech in Computer Science with AI &amp; ML specialization, I knew I was stepping into the right field. Simultaneously enrolling at <strong>IIT Madras</strong> for a BSc in Data Science reinforced my commitment to mastering both theory and practice.
+              </p>
+              <p>
+                What truly excited me was bridging the gap between academic knowledge and real-world impact. My first major project, <strong>Mahalaxmi Tailors</strong>, taught me more about production engineering in three days than months of coursework could — juggling AWS CloudFormation templates, Razorpay payment webhooks, JWT-based RBAC, and Cloudinary image pipelines simultaneously. That experience shaped how I approach every project: ship fast, learn from users, iterate.
+              </p>
+              <p>
+                <strong>FalcoVita</strong>, my healthcare platform built with Vue.js, Flask, Celery, and Redis, pushed me deeper into distributed systems, asynchronous task queues, and cryptographic security. The challenge of handling sensitive medical data responsibly while keeping the user interface intuitive was a masterclass in full-stack thinking.
+              </p>
+              <p>
+                Earning my <strong>AWS Certified Cloud Practitioner</strong> credential was a natural milestone — I had already been deploying to AWS in production. The certification formalized knowledge I had gained hands-on: EC2 instance management, S3 storage policies, IAM roles and permissions, RDS database setup, and CloudFront CDN configuration.
+              </p>
+              <p>
+                Beyond code, I write <strong>Urdu Shayari</strong> — poetry that explores the intersection of technology, human emotion, and the world we are building. I believe the same precision that makes great software also makes great verse.
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold font-outfit mb-4 border-b border-white/10 pb-2">
+              Certifications &amp; Achievements
+            </h2>
+            <ul className="space-y-3 text-muted-foreground">
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2" />
+                <span><strong className="text-foreground">AWS Certified Cloud Practitioner</strong> — Amazon Web Services. Demonstrates expertise in core AWS services, cloud economics, security, and architecture best practices.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2" />
+                <span><strong className="text-foreground">JEE Advanced 2023</strong> — Qualified one of India's most competitive engineering entrance examinations, demonstrating strong foundations in mathematics, physics, and analytical reasoning.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2" />
+                <span><strong className="text-foreground">CGPA 8.77 at VIIT Pune</strong> — Consistent academic performance in Computer Science with AI &amp; ML specialization, covering Data Structures, Algorithms, Machine Learning, and System Design.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2" />
+                <span><strong className="text-foreground">IIT Madras BSc Data Science</strong> — Parallel degree focusing on statistical modeling, data analysis, Python programming, and machine learning foundations from one of India's premier technical institutions.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2" />
+                <span><strong className="text-foreground">IPO Success Predictor</strong> — Built and deployed an ML model achieving 80% prediction accuracy using ensemble learning techniques, published publicly on Hugging Face Spaces.</span>
+              </li>
+            </ul>
+          </section>
         </div>
 
         <div className="space-y-6">

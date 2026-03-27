@@ -187,6 +187,35 @@ export default function ContactPage() {
           )}
         </div>
       </div>
+
+      <section className="mt-16 glass-panel p-8 rounded-2xl border border-white/5">
+        <h2 className="text-2xl font-bold font-outfit mb-4">Let&apos;s Build Something Together</h2>
+        <div className="prose prose-invert max-w-none text-muted-foreground space-y-4">
+          <p>
+            <strong>AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> is open to collaboration on ambitious software projects. Whether you need a full-stack web application built from scratch, an existing system improved, a machine learning model integrated into your product, or your infrastructure migrated to AWS — bringing production experience and academic rigor to every engagement.
+          </p>
+          <p>
+            As a Computer Science undergraduate simultaneously enrolled at <strong>VIIT Pune</strong> (B.Tech AI &amp; ML, CGPA 8.77) and <strong>IIT Madras</strong> (BSc Data Science), the approach to every project is grounded in both theory and real-world deployment. Every architecture decision is made with scalability, security, and maintainability in mind — not just getting it to work in development.
+          </p>
+          <div className="grid md:grid-cols-3 gap-6 mt-6 not-prose">
+            <div>
+              <h3 className="font-semibold text-foreground mb-2">Full-Stack Development</h3>
+              <p className="text-sm">Next.js 16, React 19, Node.js, Flask, Vue.js. From API design to database schema to responsive UI — complete end-to-end development with production deployment included.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-foreground mb-2">AI / ML Integration</h3>
+              <p className="text-sm">Machine learning model development, training, evaluation, and deployment. Python (scikit-learn, Pandas, NumPy), OpenAI API integration, Hugging Face model hosting.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-foreground mb-2">AWS Cloud Architecture</h3>
+              <p className="text-sm">Infrastructure as Code with CloudFormation, EC2 + RDS + S3 + CloudFront architectures, IAM security configuration, GitHub Actions CI/CD pipelines, and cost optimization.</p>
+            </div>
+          </div>
+          <p className="mt-4">
+            Response time is typically within <strong>24–48 hours</strong>. For urgent project inquiries, calling or messaging on LinkedIn is the fastest path. All consultations begin with a free scoping call to understand your requirements before any commitment.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }

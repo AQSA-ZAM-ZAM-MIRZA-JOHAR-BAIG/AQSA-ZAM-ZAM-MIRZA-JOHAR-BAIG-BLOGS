@@ -77,6 +77,46 @@ export default function PortfolioPage() {
           </div>
         ))}
       </div>
+
+      <section className="mt-16 glass-panel p-8 rounded-2xl border border-white/5">
+        <h2 className="text-2xl font-bold font-outfit mb-4">My Development Philosophy</h2>
+        <div className="prose prose-invert max-w-none text-muted-foreground space-y-4">
+          <p>
+            Every project in this portfolio started with a real problem. <strong>AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> believes that the best software is not the most technically complex — it is the software that solves a problem clearly, performs reliably in production, and can be understood and extended by future developers. This philosophy drives every architectural decision, from choosing the right database schema to structuring API endpoints.
+          </p>
+          <p>
+            For <strong>Mahalaxmi Tailors</strong>, the goal was building a complete e-commerce system that a non-technical business owner could rely on daily. That meant prioritizing uptime with AWS, keeping payment flows trustworthy with Razorpay webhook verification, and making sure every order notification reached the right person instantly. The system went live within three days of conception and has handled real customer transactions.
+          </p>
+          <p>
+            <strong>FalcoVita</strong> tackled the healthcare domain — where data accuracy and security are non-negotiable. The asynchronous architecture using Celery and Redis ensured that heavy ML inference tasks never blocked the user interface. Cryptographic data protection was implemented at the field level, not just at the transport layer.
+          </p>
+          <p>
+            The <strong>IPO Success Predictor</strong> demonstrates a complete machine learning workflow: feature engineering from financial datasets, training an ensemble model (80% accuracy), exporting it, and deploying an interactive interface on Hugging Face — making ML accessible to non-developers.
+          </p>
+        </div>
+      </section>
+
+      <section className="mt-8 glass-panel p-8 rounded-2xl border border-white/5">
+        <h2 className="text-2xl font-bold font-outfit mb-4">Tech Stack Expertise</h2>
+        <div className="grid md:grid-cols-2 gap-6 text-sm text-muted-foreground">
+          <div>
+            <h3 className="font-semibold text-foreground mb-2">Frontend</h3>
+            <p>Next.js 16 (App Router, Server Components, Server Actions), React 19, Vue.js 3 (Composition API), Tailwind CSS, Framer Motion, Chart.js for data visualization.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground mb-2">Backend</h3>
+            <p>Node.js with Express.js for REST APIs, Flask (Python) for ML-integrated backends, Celery + Redis for async task queues, JWT authentication with RBAC, Razorpay and Cloudinary integrations.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground mb-2">Cloud & DevOps</h3>
+            <p>AWS EC2, S3, RDS, Lambda, CloudFront, CloudFormation (Infrastructure as Code), IAM roles and policies, GitHub Actions CI/CD pipelines for automated deployments.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground mb-2">AI & Data</h3>
+            <p>Python (Pandas, NumPy, Scikit-learn), Ensemble Learning (Random Forest, Gradient Boosting), OpenAI API integration, Hugging Face Spaces deployment, data preprocessing and feature engineering.</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
