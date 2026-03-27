@@ -29,7 +29,13 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        source: '/(?:.+\\.(?:js|css|woff2|ico|png|jpg|jpeg|webp|svg))',
+        source: '/_next/static/:path*',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
+        ],
+      },
+      {
+        source: '/_next/image',
         headers: [
           { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
         ],
@@ -39,6 +45,3 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-
-
-
