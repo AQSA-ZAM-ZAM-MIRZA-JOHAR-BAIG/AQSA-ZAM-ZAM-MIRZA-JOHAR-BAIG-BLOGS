@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import React from "react";
 
-const BASE_URL = "https://aqsa-zam-zam-mirza-johar-baig.com";
+const BASE_URL = "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app";
 
 export async function generateMetadata({
   params,

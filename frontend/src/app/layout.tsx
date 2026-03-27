@@ -6,7 +6,7 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit", display: "swap" });
 
-const BASE_URL = "https://aqsa-zam-zam-mirza-johar-baig.com";
+const BASE_URL = "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app";
 
 export const viewport: Viewport = {
   themeColor: "#0f172a",
