@@ -20,7 +20,7 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        source: '/(.*)',
+        source: '/:path*',
         headers: [
           { key: 'X-Frame-Options', value: 'DENY' },
           { key: 'X-Content-Type-Options', value: 'nosniff' },
@@ -29,7 +29,7 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        source: '/(.+\\.(js|css|woff2|ico|png|jpg|jpeg|webp|svg))',
+        source: '/(?:.+\\.(?:js|css|woff2|ico|png|jpg|jpeg|webp|svg))',
         headers: [
           { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
         ],
