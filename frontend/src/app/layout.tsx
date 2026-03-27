@@ -87,11 +87,7 @@ export const metadata: Metadata = {
     images: ["/og-image.jpg"],
     creator: "@aqsamirza08",
   },
-  alternates: {
-    canonical: BASE_URL,
-  },
   verification: {
-    google: "ADD_YOUR_GSC_VERIFICATION_CODE_HERE",
     other: {
       "p:domain_verify": "1727ddde2145d7b50d1833865be021a6",
     },
@@ -258,8 +254,6 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
-        {/* Canonical */}
-        <link rel="canonical" href={BASE_URL} />
 
         {/* Structured Data */}
         <script

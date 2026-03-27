@@ -4,10 +4,17 @@ import { ArrowRight, Code, BookOpen, MessageSquare, Cpu, Cloud, PenTool } from "
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI/ML Engineer & Full-Stack Developer | Home",
+  title: "AI/ML Engineer & Full-Stack Developer | AQSA ZAM ZAM MIRZA JOHAR BAIG",
   description:
-    "AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML engineer, Full-Stack developer (Next.js 16, React 19, Flask), AWS Certified Cloud Practitioner, VIIT Pune & IIT Madras student. Explore ML projects, technical blogs & Urdu Shayari.",
+    "AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML engineer, Next.js 16 full-stack developer, and AWS Certified Cloud Practitioner. CS student at VIIT Pune (CGPA 8.77) & IIT Madras. Building production-grade ML systems, cloud architectures, and full-stack applications. Explore projects, blogs & Urdu Shayari.",
   alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/" },
+  openGraph: {
+    title: "AQSA ZAM ZAM MIRZA JOHAR BAIG | AI/ML Engineer & Full-Stack Developer",
+    description: "Official portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML specialist, full-stack developer, AWS Certified. VIIT Pune & IIT Madras.",
+    type: "website",
+    url: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML Engineer Portfolio" }],
+  },
 };
 
 const faqSchema = {
