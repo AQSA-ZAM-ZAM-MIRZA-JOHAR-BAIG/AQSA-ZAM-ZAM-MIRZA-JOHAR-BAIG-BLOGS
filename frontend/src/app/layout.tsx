@@ -92,6 +92,9 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "ADD_YOUR_GSC_VERIFICATION_CODE_HERE",
+    other: {
+      "p:domain_verify": "1727ddde2145d7b50d1833865be021a6",
+    },
   },
 };
 
