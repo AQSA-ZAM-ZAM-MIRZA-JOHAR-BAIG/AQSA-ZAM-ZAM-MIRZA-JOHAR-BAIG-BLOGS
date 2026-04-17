@@ -165,14 +165,13 @@ export default function AboutPage() {
           <div className="glass-panel p-6 rounded-2xl border border-white/10 sticky top-24">
             <h3 className="text-xl font-bold font-outfit mb-4">Resume</h3>
             <p className="text-sm text-muted-foreground mb-6">
-              Download my latest resume to view full details of my education, projects, and work experience.
+              For the latest resume with full education, projects, and experience details, send a quick request by email.
             </p>
             <a 
-              href="/resume.pdf" 
+              href="mailto:aqsazamzam2005@gmail.com?subject=Resume%20Request" 
               className="w-full bg-primary hover:bg-primary/90 text-white font-semibold py-3 px-4 rounded-lg transition-colors flex items-center justify-center gap-2"
-              download
             >
-              <Download className="w-4 h-4" /> Download PDF
+              <Download className="w-4 h-4" /> Request Resume
             </a>
             
             <hr className="border-white/10 my-6" />
