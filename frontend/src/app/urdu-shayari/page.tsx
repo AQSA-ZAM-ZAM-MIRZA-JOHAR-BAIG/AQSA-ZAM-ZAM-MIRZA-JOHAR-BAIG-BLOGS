@@ -1,10 +1,11 @@
 import { Metadata } from "next";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { Music, Feather } from "lucide-react";
+import { Music, Feather, BookOpen } from "lucide-react";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Urdu Shayari",
-  description: "Read beautiful AqsA Mirza Urdu shayari. Original poems and ghazals written in Urdu, Devanagari, and English transliteration, created by AQSA ZAM ZAM MIRZA JOHAR BAIG."
+  description: "Read beautiful AqsA Mirza Urdu shayari. Original poems and ghazals by AQSA ZAM ZAM MIRZA JOHAR BAIG."
 };
 
 const SHAYARI_LIST = [
@@ -147,6 +148,21 @@ export default function UrduShayariPage() {
           </div>
         ))}
       </div>
+
+      {/* Internal link to the Urdu Shayari blog post — resolves orphan page SEO issue */}
+      <section className="mt-12 glass-panel p-8 rounded-2xl border border-white/5 text-center">
+        <BookOpen className="w-8 h-8 text-primary mx-auto mb-4" />
+        <h2 className="text-xl font-bold font-outfit mb-2">Also on the Blog</h2>
+        <p className="text-muted-foreground text-sm mb-5">
+          Read AQSA ZAM ZAM MIRZA JOHAR BAIG's essay on the intersection of technology and Urdu poetry.
+        </p>
+        <Link
+          href="/blog/urdu-shayari-aqsa-zam-zam-mirza-johar-baig-tech-meets-poetry"
+          className="inline-block bg-primary hover:bg-primary/90 text-white font-semibold py-2.5 px-7 rounded-lg transition-colors text-sm"
+        >
+          When Tech Meets Poetry — Read the Article →
+        </Link>
+      </section>
     </div>
   );
 }

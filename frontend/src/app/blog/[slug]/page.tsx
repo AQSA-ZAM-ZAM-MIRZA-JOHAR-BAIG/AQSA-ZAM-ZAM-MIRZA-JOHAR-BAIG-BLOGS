@@ -117,6 +117,158 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     tags: ["Career", "Interview Prep", "System Design", "SDE"],
     categories: ["Career", "Interview Prep"],
   },
+  "aqsa-zam-zam-mirza-johar-baig-mahalaxmi-tailors-nextjs-fullstack": {
+    title: "Building Mahalaxmi Tailors — MERN Full-Stack E-Commerce with AWS",
+    excerpt: "How I built a production MERN e-commerce platform for Mahalaxmi Tailors with Razorpay payments, JWT RBAC, and AWS CloudFormation in 3 days.",
+    content: `
+      <p>Mahalaxmi Tailors needed a complete digital presence — an e-commerce storefront where customers could browse catalogues, place tailoring orders, and make secure payments. I built and deployed the full system in three days using the MERN stack and AWS.</p>
+      <h2>Tech Stack Decisions</h2>
+      <p>MongoDB for flexible product schemas, Express.js for REST APIs, React for the storefront, and Node.js on the backend. AWS CloudFormation was used to define the entire infrastructure as code — EC2 instances, RDS, S3 buckets, and CloudFront CDN — so the deployment is fully reproducible.</p>
+      <h2>Authentication with JWT and RBAC</h2>
+      <p>Three roles — Customer, Staff, and Admin — each with strictly scoped permissions. JWT access tokens (15-minute expiry) and refresh tokens (7-day expiry) stored in HTTP-only cookies prevent XSS-based token theft.</p>
+      <h2>Razorpay Payment Integration</h2>
+      <p>Orders are created server-side and Razorpay webhook signatures are verified with HMAC-SHA256 before updating order status. This prevents fraudulent order confirmations. Every payment event is logged for audit trails.</p>
+      <h2>AWS CloudFormation Infrastructure</h2>
+      <p>The entire AWS infrastructure is defined in a single CloudFormation template — making the deployment reproducible, version-controlled, and disaster-recoverable within minutes. EC2 runs the Node.js backend behind an Application Load Balancer, with CloudFront caching static assets globally.</p>
+      <blockquote>"Build it once, deploy it anywhere — that's what Infrastructure as Code gives you."</blockquote>
+    `,
+    author: {
+      name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
+      role: "AI/ML Engineer & Full-Stack Developer",
+      bio: "B.Tech CSE (AI/ML) at VIIT Pune (CGPA 8.77) and BSc Data Science at IIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+    },
+    createdAt: "2026-03-20T00:00:00Z",
+    updatedAt: "2026-03-22T00:00:00Z",
+    readTime: "10 min read",
+    views: 1100,
+    tags: ["MERN", "AWS", "E-Commerce", "Razorpay", "JWT"],
+    categories: ["MERN", "AWS", "E-Commerce"],
+  },
+  "aqsa-zam-zam-mirza-johar-baig-falcovita-ai-health-platform-aws": {
+    title: "FalcoVita — Building an AI Healthcare Platform with Flask, Vue.js & AWS",
+    excerpt: "A technical deep-dive into FalcoVita's architecture: Flask REST APIs, Vue.js frontend, Redis task queues with Celery, and AWS deployment.",
+    content: `
+      <p>FalcoVita is a scalable healthcare platform I built to demonstrate how AI and cloud-native architecture can be applied to a domain where reliability and security are non-negotiable.</p>
+      <h2>Architecture Overview</h2>
+      <p>The backend is a Flask REST API serving a Vue.js 3 (Composition API) frontend. Heavy ML inference tasks run asynchronously via Celery workers backed by Redis as the message broker. This keeps the UI responsive while long-running tasks complete in the background.</p>
+      <h2>OpenAI API Integration</h2>
+      <p>FalcoVita uses the OpenAI API to generate natural language summaries of patient data. Prompts are carefully engineered to produce clinically appropriate language, and all API calls go through a rate-limited middleware layer to control costs.</p>
+      <h2>Multi-Layer Security</h2>
+      <p>Data is encrypted at the field level using Fernet symmetric encryption before being stored in the database. Transport-level TLS is enforced at the AWS Application Load Balancer. JWT-based RBAC controls access to patient records with audit logging on every sensitive operation.</p>
+      <h2>20+ Data Visualizations</h2>
+      <p>Chart.js powers over 20 interactive charts — trend lines, risk heatmaps, demographic breakdowns — all rendered client-side from aggregated, anonymized data served by the Flask API.</p>
+      <blockquote>"In healthcare software, security is not a feature — it's the foundation."</blockquote>
+    `,
+    author: {
+      name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
+      role: "AI/ML Engineer & Full-Stack Developer",
+      bio: "B.Tech CSE (AI/ML) at VIIT Pune (CGPA 8.77) and BSc Data Science at IIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+    },
+    createdAt: "2026-03-22T00:00:00Z",
+    updatedAt: "2026-03-25T00:00:00Z",
+    readTime: "12 min read",
+    views: 1800,
+    tags: ["Flask", "Vue.js", "AWS", "AI", "Healthcare", "Redis"],
+    categories: ["Flask", "Vue.js", "AWS", "AI"],
+  },
+  "aqsa-zam-zam-mirza-johar-baig-viit-pune-aws-developer-journey": {
+    title: "My AWS Developer Journey — From VIIT Pune Student to Cloud Practitioner",
+    excerpt: "The journey of earning the AWS Certified Cloud Practitioner credential while studying at VIIT Pune and IIT Madras.",
+    content: `
+      <p>Earning the AWS Certified Cloud Practitioner credential as a second-year engineering student at VIIT Pune required balancing coursework at two institutions simultaneously — VIIT Pune for B.Tech CSE (AI/ML) and IIT Madras for BSc Data Science.</p>
+      <h2>Why AWS Certification as a Student?</h2>
+      <p>Cloud infrastructure is no longer optional for full-stack developers. Every production-grade application I wanted to build — from e-commerce to healthcare platforms — needed reliable, scalable infrastructure. AWS was the industry-standard choice.</p>
+      <h2>The Study Approach</h2>
+      <p>I studied AWS documentation alongside building real projects. Reading about EC2 while simultaneously deploying the Mahalaxmi Tailors backend to EC2 made abstract concepts concrete. CloudFormation templates went from intimidating YAML files to powerful infrastructure automation tools once I used them in production.</p>
+      <h2>Core Services I Use in Production</h2>
+      <ul>
+        <li><strong>EC2</strong> — for hosting Node.js and Flask backends</li>
+        <li><strong>S3</strong> — for static assets and media storage</li>
+        <li><strong>RDS</strong> — for managed PostgreSQL databases</li>
+        <li><strong>CloudFront</strong> — as a global CDN for fast asset delivery</li>
+        <li><strong>Lambda</strong> — for event-driven serverless functions</li>
+        <li><strong>IAM</strong> — for role-based access control across services</li>
+      </ul>
+      <blockquote>"The fastest way to learn cloud is to build something real on it."</blockquote>
+    `,
+    author: {
+      name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
+      role: "AI/ML Engineer & Full-Stack Developer",
+      bio: "B.Tech CSE (AI/ML) at VIIT Pune (CGPA 8.77) and BSc Data Science at IIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+    },
+    createdAt: "2026-03-24T00:00:00Z",
+    updatedAt: "2026-03-26T00:00:00Z",
+    readTime: "9 min read",
+    views: 1550,
+    tags: ["AWS", "Career", "VIIT Pune", "Cloud", "Certification"],
+    categories: ["AWS", "Career", "VIIT Pune"],
+  },
+  "top-10-nextjs-16-react-19-tips-aqsa-zam-zam-mirza-johar-baig": {
+    title: "Top 10 Next.js 16 & React 19 Tips for Production Apps",
+    excerpt: "Production-tested tips for Next.js 16 App Router and React 19 Server Components that every developer should know.",
+    content: `
+      <p>After building and deploying several production Next.js applications, I have compiled the 10 most impactful tips for writing fast, maintainable Next.js 16 and React 19 apps using the App Router.</p>
+      <h2>1. Default to Server Components</h2>
+      <p>Every component in the App Router is a Server Component by default. Keep as much logic as possible on the server — data fetching, DB queries, authorization checks. Only add "use client" when you actually need browser APIs or interactivity.</p>
+      <h2>2. Use generateStaticParams for Dynamic Routes</h2>
+      <p>For pages like /blog/[slug], use generateStaticParams to pre-render all known slugs at build time. This gives you the performance of static HTML with the flexibility of dynamic routing.</p>
+      <h2>3. Parallel Data Fetching with Promise.all</h2>
+      <p>Never await fetches sequentially when they are independent. Use Promise.all to fetch concurrently and cut waterfall latency significantly.</p>
+      <h2>4. Streaming with Suspense</h2>
+      <p>Wrap slow data-fetching components in Suspense with a loading skeleton. This allows Next.js to stream the fast parts of the page immediately while the slow parts load progressively.</p>
+      <h2>5. ISR for Frequently Changing Data</h2>
+      <p>Use Incremental Static Regeneration (revalidate) instead of SSR for pages whose data changes infrequently.</p>
+      <h2>6. Image Optimization with next/image</h2>
+      <p>Always use next/image with explicit width, height, and sizes props. Set priority on above-the-fold images to improve Core Web Vitals.</p>
+      <h2>7. Route Groups for Layout Isolation</h2>
+      <p>Use (group) folders to apply different layouts to sections of your app without affecting the URL structure.</p>
+      <h2>8. Server Actions for Form Handling</h2>
+      <p>React 19 Server Actions let you handle form submissions directly in Server Components without writing API route handlers. They work with progressive enhancement.</p>
+      <h2>9. Avoid Prop Drilling — Use Context Sparingly</h2>
+      <p>In the App Router, React Context only works in Client Components. For server-side data passing, use props or move data fetching up to the nearest shared layout.</p>
+      <h2>10. Analyze Your Bundle</h2>
+      <p>Run ANALYZE=true next build to inspect your client bundle. Large dependencies moved to the server side dramatically improve Time to Interactive.</p>
+      <blockquote>"The best Next.js app is the one where you have the fewest Client Components."</blockquote>
+    `,
+    author: {
+      name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
+      role: "AI/ML Engineer & Full-Stack Developer",
+      bio: "B.Tech CSE (AI/ML) at VIIT Pune (CGPA 8.77) and BSc Data Science at IIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+    },
+    createdAt: "2026-03-25T00:00:00Z",
+    updatedAt: "2026-03-27T00:00:00Z",
+    readTime: "11 min read",
+    views: 2200,
+    tags: ["Next.js", "React", "Frontend", "Performance", "App Router"],
+    categories: ["Next.js", "React", "Frontend"],
+  },
+  "urdu-shayari-aqsa-zam-zam-mirza-johar-baig-tech-meets-poetry": {
+    title: "When Tech Meets Poetry — Urdu Shayari by AQSA ZAM ZAM MIRZA JOHAR BAIG",
+    excerpt: "Exploring the intersection of technology and Urdu poetry — original Urdu Shayari by a software developer who codes and writes.",
+    content: `
+      <p>I am a software engineer who writes Urdu poetry. These two identities feel contradictory from the outside — one is logic, the other is emotion. But from inside, they feel like the same pursuit: finding the most precise expression of a complex idea.</p>
+      <h2>Why a Software Developer Writes Shayari</h2>
+      <p>Programming teaches you to reduce complexity to its essential form. A well-written function does one thing clearly. A well-written sher (couplet) also does one thing clearly — evokes one emotion with surgical precision. The discipline of both crafts overlaps more than people expect.</p>
+      <h2>Khwab Aur Haqeeqat — خواب اور حقیقت</h2>
+      <p>خوابوں کی دنیا میں کھوئے رہتے ہیں، حقیقت سے ہم دور سوئے رہتے ہیں۔ (We remain lost in the world of dreams, sleeping far from reality.) This couplet reflects the tension every engineering student feels — between the idealized version of the future you imagine and the grinding reality of building toward it.</p>
+      <h2>Tech and Urdu Poetry — A Shared Philosophy</h2>
+      <p>Both disciplines value precision. In code, a poorly named variable misleads. In shayari, a poorly chosen word breaks the meter and the meaning simultaneously. Both require revision — you refactor code and redraft verse until both say exactly what they must and nothing more.</p>
+      <h2>Read the Full Shayari Collection</h2>
+      <p>I publish original Urdu Shayari on this site. You can read the full collection on the <a href="/urdu-shayari">Urdu Shayari page</a>.</p>
+      <blockquote>"Code is poetry. Shayari is code. Both compress meaning into the smallest possible space."</blockquote>
+    `,
+    author: {
+      name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
+      role: "AI/ML Engineer & Full-Stack Developer",
+      bio: "B.Tech CSE (AI/ML) at VIIT Pune (CGPA 8.77) and BSc Data Science at IIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+    },
+    createdAt: "2026-03-26T00:00:00Z",
+    updatedAt: "2026-03-28T00:00:00Z",
+    readTime: "7 min read",
+    views: 1350,
+    tags: ["Urdu Shayari", "Life", "Poetry", "Tech"],
+    categories: ["Urdu Shayari", "Life"],
+  },
 };
 
 const DEFAULT_POST = POSTS["mastering-dsa-interviews"];

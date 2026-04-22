@@ -18,11 +18,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    template: "AQSA ZAM ZAM MIRZA JOHAR BAIG | %s",
-    default: "AQSA ZAM ZAM MIRZA JOHAR BAIG | AI/ML Engineer & Full-Stack Developer",
+    template: "AQSA M. J. BAIG | %s",
+    default: "AQSA M. J. BAIG | AI/ML Engineer",
   },
   description:
-    "Official portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML Engineer, Full-Stack Developer (Next.js, React, Flask), and AWS Certified Cloud Practitioner studying at VIIT Pune & IIT Madras. View projects, blogs, and Urdu Shayari.",
+    "Portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG. AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner.",
   keywords: [
     "AQSA ZAM ZAM MIRZA JOHAR BAIG",
     "AqsA Johar Baig portfolio",
@@ -65,10 +65,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: BASE_URL,
-    title: "AQSA ZAM ZAM MIRZA JOHAR BAIG | AI/ML Engineer & Full-Stack Developer",
+    title: "AQSA M. J. BAIG | AI/ML Engineer",
     description:
-      "Official portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML specialist, Full-Stack developer, and AWS Certified Cloud Practitioner from VIIT Pune & IIT Madras.",
+      "Portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG. AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner.",
     images: [
       {
         url: "/og-image.jpg",
@@ -81,9 +80,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AQSA ZAM ZAM MIRZA JOHAR BAIG | AI/ML Engineer & Full-Stack Developer",
+    title: "AQSA M. J. BAIG | AI/ML Engineer",
     description:
-      "Official portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML, Full-Stack, AWS Cloud, VIIT Pune & IIT Madras.",
+      "Portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG. AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner.",
     images: ["/og-image.jpg"],
     creator: "@aqsamirza08",
   },
@@ -298,7 +297,7 @@ export default function RootLayout({
 
         <footer className="border-t border-white/10 mt-auto py-12 glass">
           <div className="max-w-7xl mx-auto px-4 flex flex-col items-center gap-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 w-full max-w-4xl">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 w-full max-w-6xl">
               <div className="text-center md:text-left">
                 <h3 className="text-foreground font-bold mb-4 uppercase text-xs tracking-widest">Navigation</h3>
                 <nav className="flex flex-col gap-2 text-sm text-muted-foreground">
@@ -307,6 +306,17 @@ export default function RootLayout({
                   <Link href="/blog" className="hover:text-primary transition-colors">Technical Blogs</Link>
                   <Link href="/urdu-shayari" className="hover:text-primary transition-colors">Urdu Shayari</Link>
                   <Link href="/contact" className="hover:text-primary transition-colors">Contact</Link>
+                </nav>
+              </div>
+
+              <div className="text-center md:text-left">
+                <h3 className="text-foreground font-bold mb-4 uppercase text-xs tracking-widest">Featured Blogs</h3>
+                <nav className="flex flex-col gap-2 text-sm text-muted-foreground">
+                  <Link href="/blog/aqsa-zam-zam-mirza-johar-baig-viit-pune-aws-developer-journey" className="hover:text-primary transition-colors truncate" title="My AWS Developer Journey">AWS Journey</Link>
+                  <Link href="/blog/aqsa-zam-zam-mirza-johar-baig-falcovita-ai-health-platform-aws" className="hover:text-primary transition-colors truncate" title="FalcoVita AI Platform">FalcoVita AI</Link>
+                  <Link href="/blog/urdu-shayari-aqsa-zam-zam-mirza-johar-baig-tech-meets-poetry" className="hover:text-primary transition-colors truncate" title="When Tech Meets Poetry — Urdu Shayari">Urdu Shayari</Link>
+                  <Link href="/blog/top-10-nextjs-16-react-19-tips-aqsa-zam-zam-mirza-johar-baig" className="hover:text-primary transition-colors truncate" title="Top 10 Next.js 16 Tips">Next.js 16 Tips</Link>
+                  <Link href="/blog/aqsa-zam-zam-mirza-johar-baig-mahalaxmi-tailors-nextjs-fullstack" className="hover:text-primary transition-colors truncate" title="Building Mahalaxmi Tailors">Mahalaxmi Tailors</Link>
                 </nav>
               </div>
 

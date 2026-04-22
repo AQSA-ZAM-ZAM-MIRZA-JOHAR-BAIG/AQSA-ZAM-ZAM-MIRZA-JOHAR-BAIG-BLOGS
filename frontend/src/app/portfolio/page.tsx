@@ -1,11 +1,12 @@
 import { Metadata } from "next";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { FolderGit2, ExternalLink, Github } from "lucide-react";
+import { FolderGit2, ExternalLink, Github, BookOpen } from "lucide-react";
+import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "AQSA ZAM ZAM MIRZA JOHAR BAIG | Portfolio & Projects",
+  title: "Portfolio",
   description:
-    "Explore production projects by AQSA ZAM ZAM MIRZA JOHAR BAIG: Mahalaxmi Tailors (MERN + AWS), FalcoVita healthcare AI platform (Flask + Redis), and IPO Success Predictor (80% ML accuracy on Hugging Face).",
+    "Explore production projects by AQSA ZAM ZAM MIRZA JOHAR BAIG: Mahalaxmi Tailors, FalcoVita healthcare AI platform, and IPO Success Predictor.",
   alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/portfolio" },
 };
 
@@ -115,6 +116,49 @@ export default function PortfolioPage() {
             <h3 className="font-semibold text-foreground mb-2">AI & Data</h3>
             <p>Python (Pandas, NumPy, Scikit-learn), Ensemble Learning (Random Forest, Gradient Boosting), OpenAI API integration, Hugging Face Spaces deployment, data preprocessing and feature engineering.</p>
           </div>
+        </div>
+      </section>
+
+      {/* Internal links to project blog posts — resolves orphan page SEO issue */}
+      <section className="mt-8 glass-panel p-8 rounded-2xl border border-white/5">
+        <h2 className="text-2xl font-bold font-outfit mb-2 flex items-center gap-3">
+          <BookOpen className="w-6 h-6 text-primary" />
+          Read the Full Build Stories
+        </h2>
+        <p className="text-muted-foreground text-sm mb-6">
+          Deep-dive technical articles on how each project was designed, built, and deployed by AQSA ZAM ZAM MIRZA JOHAR BAIG.
+        </p>
+        <div className="grid sm:grid-cols-3 gap-4">
+          <Link
+            href="/blog/aqsa-zam-zam-mirza-johar-baig-mahalaxmi-tailors-nextjs-fullstack"
+            className="glass p-5 rounded-xl border border-white/10 hover:border-primary/40 hover:-translate-y-1 transition-all group"
+          >
+            <h3 className="font-semibold font-outfit text-sm mb-1 group-hover:text-primary transition-colors">
+              Building Mahalaxmi Tailors — MERN + AWS
+            </h3>
+            <p className="text-muted-foreground text-xs">MERN · Razorpay · CloudFormation · JWT RBAC</p>
+            <span className="text-primary text-xs mt-3 inline-block">Read article →</span>
+          </Link>
+          <Link
+            href="/blog/aqsa-zam-zam-mirza-johar-baig-falcovita-ai-health-platform-aws"
+            className="glass p-5 rounded-xl border border-white/10 hover:border-primary/40 hover:-translate-y-1 transition-all group"
+          >
+            <h3 className="font-semibold font-outfit text-sm mb-1 group-hover:text-primary transition-colors">
+              FalcoVita — AI Healthcare with Flask & Vue.js
+            </h3>
+            <p className="text-muted-foreground text-xs">Flask · Vue.js · Redis · Celery · AWS · OpenAI</p>
+            <span className="text-primary text-xs mt-3 inline-block">Read article →</span>
+          </Link>
+          <Link
+            href="/blog/aqsa-zam-zam-mirza-johar-baig-viit-pune-aws-developer-journey"
+            className="glass p-5 rounded-xl border border-white/10 hover:border-primary/40 hover:-translate-y-1 transition-all group"
+          >
+            <h3 className="font-semibold font-outfit text-sm mb-1 group-hover:text-primary transition-colors">
+              My AWS Journey — VIIT Pune to Cloud Practitioner
+            </h3>
+            <p className="text-muted-foreground text-xs">AWS · EC2 · S3 · CloudFront · Certification</p>
+            <span className="text-primary text-xs mt-3 inline-block">Read article →</span>
+          </Link>
         </div>
       </section>
     </div>

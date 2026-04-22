@@ -4,9 +4,9 @@ import { Search, BookOpen } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AQSA ZAM ZAM MIRZA JOHAR BAIG | Technical Blog & Articles",
+  title: "Blog",
   description:
-    "Read AI/ML tutorials, Next.js guides, AWS deployment walkthroughs, and DSA interview prep articles authored by AQSA ZAM ZAM MIRZA JOHAR BAIG — CS student at VIIT Pune & IIT Madras.",
+    "Technical articles on AI/ML, AWS, Next.js, and DSA by AQSA ZAM ZAM MIRZA JOHAR BAIG, CS student at VIIT Pune & IIT Madras.",
   alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/blog" },
 };
 
@@ -37,6 +37,51 @@ const MOCK_POSTS = [
     createdAt: new Date("2026-01-10").toISOString(),
     views: 2100,
     categories: ["Career", "Interview Prep"]
+  },
+  {
+    title: "Building Mahalaxmi Tailors — MERN Full-Stack E-Commerce with AWS",
+    slug: "aqsa-zam-zam-mirza-johar-baig-mahalaxmi-tailors-nextjs-fullstack",
+    excerpt: "How I built a production MERN e-commerce platform for Mahalaxmi Tailors in 3 days.",
+    author: { name: "AQSA ZAM ZAM MIRZA JOHAR BAIG" },
+    createdAt: new Date("2026-03-20").toISOString(),
+    views: 1100,
+    categories: ["MERN", "AWS", "E-Commerce"]
+  },
+  {
+    title: "FalcoVita — Building an AI Healthcare Platform with Flask, Vue.js & AWS",
+    slug: "aqsa-zam-zam-mirza-johar-baig-falcovita-ai-health-platform-aws",
+    excerpt: "A technical deep-dive into FalcoVita's architecture: Flask REST APIs, Vue.js frontend, Redis task queues with Celery, and AWS deployment.",
+    author: { name: "AQSA ZAM ZAM MIRZA JOHAR BAIG" },
+    createdAt: new Date("2026-03-22").toISOString(),
+    views: 1800,
+    categories: ["Flask", "Vue.js", "AWS", "AI"]
+  },
+  {
+    title: "My AWS Developer Journey — From VIIT Pune Student to Cloud Practitioner",
+    slug: "aqsa-zam-zam-mirza-johar-baig-viit-pune-aws-developer-journey",
+    excerpt: "The journey of earning the AWS Certified Cloud Practitioner credential while studying at VIIT Pune and IIT Madras.",
+    author: { name: "AQSA ZAM ZAM MIRZA JOHAR BAIG" },
+    createdAt: new Date("2026-03-24").toISOString(),
+    views: 1550,
+    categories: ["AWS", "Career", "VIIT Pune"]
+  },
+  {
+    title: "Top 10 Next.js 16 & React 19 Tips for Production Apps",
+    slug: "top-10-nextjs-16-react-19-tips-aqsa-zam-zam-mirza-johar-baig",
+    excerpt: "Production-tested tips for Next.js 16 App Router and React 19 Server Components.",
+    author: { name: "AQSA ZAM ZAM MIRZA JOHAR BAIG" },
+    createdAt: new Date("2026-03-25").toISOString(),
+    views: 2200,
+    categories: ["Next.js", "React", "Frontend"]
+  },
+  {
+    title: "When Tech Meets Poetry — Urdu Shayari",
+    slug: "urdu-shayari-aqsa-zam-zam-mirza-johar-baig-tech-meets-poetry",
+    excerpt: "Exploring the intersection of technology and Urdu poetry — original Urdu Shayari by a software developer.",
+    author: { name: "AQSA ZAM ZAM MIRZA JOHAR BAIG" },
+    createdAt: new Date("2026-03-26").toISOString(),
+    views: 1350,
+    categories: ["Urdu Shayari", "Life"]
   }
 ];
 
