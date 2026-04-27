@@ -17,7 +17,7 @@ export default function ContactPage() {
   return (
     <div className="w-full max-w-5xl mx-auto py-8">
       <Breadcrumbs />
-      
+
       <div className="mb-12 text-center max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-extrabold font-outfit mb-4 text-gradient">
           Get In Touch
@@ -33,7 +33,7 @@ export default function ContactPage() {
           <p className="text-muted-foreground">
             Feel free to reach out directly through any of these platforms. I typically respond within 24-48 hours.
           </p>
-          
+
           <div className="space-y-6 mt-8">
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 bg-primary/10 text-primary rounded-full flex items-center justify-center shrink-0">
@@ -41,12 +41,12 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-1">Email</p>
-                <a href="mailto:aqsamirz6306@gmail.com" className="text-lg font-medium hover:text-primary transition-colors">
-                  aqsamirz6306@gmail.com
+                <a href="mailto:aqsa***mirza@gmail.com" className="text-lg font-medium hover:text-primary transition-colors">
+                  aqsa***mirza@gmail.com
                 </a>
               </div>
             </div>
-            
+
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 bg-primary/10 text-primary rounded-full flex items-center justify-center shrink-0">
                 <MapPin className="w-5 h-5" />
@@ -63,12 +63,12 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-1">Phone</p>
-                <a href="tel:+917219718451" className="text-lg font-medium hover:text-primary transition-colors">
-                  +91 7219718451
+                <a href="tel:+91 72******51" className="text-lg font-medium hover:text-primary transition-colors">
+                  +91 72******51
                 </a>
               </div>
             </div>
-            
+
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 bg-primary/10 text-primary rounded-full flex items-center justify-center shrink-0">
                 <Linkedin className="w-5 h-5" />
@@ -95,7 +95,7 @@ export default function ContactPage() {
 
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 bg-primary/10 text-primary rounded-full flex items-center justify-center shrink-0">
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M15.75 12c0 2.071-1.679 3.75-3.75 3.75s-3.75-1.679-3.75-3.75 1.679-3.75 3.75-3.75 3.75 1.679 3.75 3.75zm7.234-8.109c-.234-.516-.703-.938-1.219-1.219-1.031-.563-3.14-.844-4.875-.844h-9.782c-1.734 0-3.844.281-4.875.844-.516.281-.984.703-1.219 1.219-.563 1.031-.844 3.14-.844 4.875v9.782c0 1.734.281 3.844.844 4.875.234.516.703.938 1.219 1.219 1.031.563 3.14.844 4.875.844h9.782c1.734 0 3.844-.281 4.875-.844.516-.281.984-.703 1.219-1.219.563-1.031.844-3.14.844-4.875v-9.782c0-1.734-.281-3.844-.844-4.875zm-15.031 16.031c-1.125 0-2.063-.938-2.063-2.063s.938-2.063 2.063-2.063 2.063.938 2.063 2.063-.938 2.063-2.063 2.063zm1.125-7.922c0 2.672-2.156 4.875-4.875 4.875s-4.875-2.203-4.875-4.875 2.203-4.875 4.875-4.875 4.875 2.203 4.875 4.875zm11.766 7.922c-1.125 0-2.063-.938-2.063-2.063s.938-2.063 2.063-2.063 2.063.938 2.063 2.063-.938 2.063-2.063 2.063zm2.25-7.922c0 2.672-2.156 4.875-4.875 4.875s-4.875-2.203-4.875-4.875 2.156-4.875 4.875-4.875 4.875 2.203 4.875 4.875z"/></svg>
+                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M15.75 12c0 2.071-1.679 3.75-3.75 3.75s-3.75-1.679-3.75-3.75 1.679-3.75 3.75-3.75 3.75 1.679 3.75 3.75zm7.234-8.109c-.234-.516-.703-.938-1.219-1.219-1.031-.563-3.14-.844-4.875-.844h-9.782c-1.734 0-3.844.281-4.875.844-.516.281-.984.703-1.219 1.219-.563 1.031-.844 3.14-.844 4.875v9.782c0 1.734.281 3.844.844 4.875.234.516.703.938 1.219 1.219 1.031.563 3.14.844 4.875.844h9.782c1.734 0 3.844-.281 4.875-.844.516-.281.984-.703 1.219-1.219.563-1.031.844-3.14.844-4.875v-9.782c0-1.734-.281-3.844-.844-4.875zm-15.031 16.031c-1.125 0-2.063-.938-2.063-2.063s.938-2.063 2.063-2.063 2.063.938 2.063 2.063-.938 2.063-2.063 2.063zm1.125-7.922c0 2.672-2.156 4.875-4.875 4.875s-4.875-2.203-4.875-4.875 2.203-4.875 4.875-4.875 4.875 2.203 4.875 4.875zm11.766 7.922c-1.125 0-2.063-.938-2.063-2.063s.938-2.063 2.063-2.063 2.063.938 2.063 2.063-.938 2.063-2.063 2.063zm2.25-7.922c0 2.672-2.156 4.875-4.875 4.875s-4.875-2.203-4.875-4.875 2.156-4.875 4.875-4.875 4.875 2.203 4.875 4.875z" /></svg>
               </div>
               <div>
                 <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-1">StackOverflow</p>
@@ -107,7 +107,7 @@ export default function ContactPage() {
 
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 bg-primary/10 text-primary rounded-full flex items-center justify-center shrink-0">
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" /></svg>
               </div>
               <div>
                 <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-1">YouTube</p>
@@ -121,7 +121,7 @@ export default function ContactPage() {
 
         <div className="glass-panel p-8 rounded-2xl border border-white/5">
           <h2 className="text-2xl font-bold font-outfit mb-6">Send a Message</h2>
-          
+
           {submitted ? (
             <div className="bg-primary/20 border border-primary/50 rounded-xl p-8 text-center h-64 flex flex-col items-center justify-center">
               <div className="w-16 h-16 bg-primary/20 text-primary rounded-full flex items-center justify-center mb-4 mx-auto">
@@ -129,7 +129,7 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Message Sent!</h3>
               <p className="text-muted-foreground">Thank you for reaching out. I'll get back to you soon.</p>
-              <button 
+              <button
                 onClick={() => setSubmitted(false)}
                 className="mt-6 text-primary hover:underline font-medium text-sm"
               >
@@ -150,7 +150,7 @@ export default function ContactPage() {
                   placeholder="John Doe"
                 />
               </div>
-              
+
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-muted-foreground mb-1">Email Address</label>
                 <input
@@ -163,7 +163,7 @@ export default function ContactPage() {
                   placeholder="john@example.com"
                 />
               </div>
-              
+
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-muted-foreground mb-1">Message</label>
                 <textarea
@@ -176,7 +176,7 @@ export default function ContactPage() {
                   placeholder="How can I help you?"
                 />
               </div>
-              
+
               <button
                 type="submit"
                 className="w-full bg-primary hover:bg-primary/90 text-white font-semibold py-3 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 mt-4"

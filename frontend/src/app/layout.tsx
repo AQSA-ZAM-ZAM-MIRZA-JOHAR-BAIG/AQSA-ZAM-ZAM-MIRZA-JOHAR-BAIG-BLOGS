@@ -115,8 +115,8 @@ export default function RootLayout({
     jobTitle: "AI/ML Engineer & Full-Stack Developer",
     description:
       "AQSA ZAM ZAM MIRZA JOHAR BAIG is a Computer Science undergraduate at VIIT Pune and IIT Madras, specializing in AI/ML, building scalable full-stack applications and cloud architectures on AWS.",
-    email: "aqsamirz6306@gmail.com",
-    telephone: "+917219718451",
+    email: "aqsa***mirza@gmail.com",
+    telephone: "+9172******51",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Pune",

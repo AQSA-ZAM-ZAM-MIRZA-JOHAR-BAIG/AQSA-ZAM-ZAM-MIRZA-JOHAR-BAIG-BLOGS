@@ -58,7 +58,7 @@ const faqSchema = {
       name: "Is AQSA ZAM ZAM MIRZA JOHAR BAIG available for freelance or consulting work?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes — AQSA ZAM ZAM MIRZA JOHAR BAIG is available for consulting in Full-Stack development (Next.js, React, Flask), AI/ML model development, and AWS cloud architecture. You can reach her at aqsamirz6306@gmail.com or connect on LinkedIn at linkedin.com/in/aqsamirza08.",
+        text: "Yes — AQSA ZAM ZAM MIRZA JOHAR BAIG is available for consulting in Full-Stack development (Next.js, React, Flask), AI/ML model development, and AWS cloud architecture. You can reach her at aqsa***mirza@gmail.com or connect on LinkedIn at linkedin.com/in/aqsamirza08.",
       },
     },
     {
@@ -82,7 +82,7 @@ const faqSchema = {
       name: "How can I contact AQSA ZAM ZAM MIRZA JOHAR BAIG?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "You can contact AQSA ZAM ZAM MIRZA JOHAR BAIG via: Email: aqsamirz6306@gmail.com | Phone: +91 7219718451 | LinkedIn: linkedin.com/in/aqsamirza08 | GitHub: github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG | Kaggle: kaggle.com/aqsamirza08 | Medium: aqsamirza08.medium.com",
+        text: "You can contact AQSA ZAM ZAM MIRZA JOHAR BAIG via: Email: aqsa***mirza@gmail.com | Phone: +91 72******51 | LinkedIn: linkedin.com/in/aqsamirza08 | GitHub: github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG | Kaggle: kaggle.com/aqsamirza08 | Medium: aqsamirza08.medium.com",
       },
     },
   ],
@@ -208,7 +208,7 @@ export default function Home() {
               },
               {
                 q: "Is AQSA ZAM ZAM MIRZA JOHAR BAIG available for hire?",
-                a: "Yes — available for full-stack consulting, AI/ML development, and AWS architecture projects. Contact via email at aqsamirz6306@gmail.com or LinkedIn.",
+                a: "Yes — available for full-stack consulting, AI/ML development, and AWS architecture projects. Contact via email at aqsa***mirza@gmail.com or LinkedIn.",
               },
             ].map(({ q, a }) => (
               <div key={q} className="space-y-2">
