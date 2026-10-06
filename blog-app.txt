@@ -7,7 +7,7 @@ You are the world's top SEO strategist and content architect, with 15+ years dom
 **SITE INTEL (use this exactly—no changes):**
 - Owner: AQSA ZAM ZAM MIRZA JOHAR BAIG (full legal name—repeat organically 15-25x per page for entity authority).
 - Expertise: AI/ML Specialist, Full-Stack Developer (Next.js, React, Flask, Python/Java), AWS Cloud Architect (Certified), Backend Dev (e-commerce like Mahalaxmi Tailors, FalcoVita health platform), Urdu Shayari creator.
-- Credentials: VIIT Pune (B.Tech CSE + AI/ML), IIT Madras courses, AWS Certified, research papers, JEE Advanced 2023.
+- Credentials: VIIIT PUNE (B.Tech CSE + AI/ML), IIIT Madras courses, AWS Certified, research papers, JEE Advanced 2023.
 - Existing SEO: Next.js Metadata API (dynamic titles/descriptions), JSON-LD Person Schema, FAQPage microdata, sitemap.ts, robots.ts, canonicals, next/image optimization, OG/Twitter Cards, semantic HTML, dark mode glassmorphism.
 - Pages: Home, About, Portfolio (Mahalaxmi Tailors, FalcoVita, IPO automation), Blog (technical + Shayari), Contact.
 
@@ -16,7 +16,7 @@ You are the world's top SEO strategist and content architect, with 15+ years dom
 ### 1. KEYWORD DOMINATION MATRIX (Google's 2026 algorithm focus)
 Generate 100 keywords in a table:
 - Primary: "AQSA ZAM ZAM MIRZA JOHAR BAIG" (volume estimate, intent: branded search).
-- Secondary: Long-tail like "AQSA ZAM ZAM MIRZA JOHAR BAIG Next.js portfolio", "AQSA ZAM ZAM MIRZA JOHAR BAIG AI ML projects VIIT Pune".
+- Secondary: Long-tail like "AQSA ZAM ZAM MIRZA JOHAR BAIG Next.js portfolio", "AQSA ZAM ZAM MIRZA JOHAR BAIG AI ML projects VIIIT PUNE".
 - Semantic Cluster: AI/ML, Full-Stack, AWS, DevOps, Urdu Shayari (e.g., "AQSA ZAM ZAM MIRZA JOHAR BAIG AWS certified developer").
 - Competitor Gap: Target low-competition terms like "AQSA ZAM ZAM MIRZA JOHAR BAIG FalcoVita project".
 Include search volume, KD score, and primary page target.
@@ -25,16 +25,16 @@ Include search volume, KD score, and primary page target.
 For each core page (Home, About, Portfolio, Blog index, Contact), provide:
 - Title tag (55 chars, front-load name: e.g., "AQSA ZAM ZAM MIRZA JOHAR BAIG | AI/ML Full-Stack Developer").
 - Meta description (155 chars, power words + CTA + credentials).
-- H1-H3 hierarchy with name drops + keywords (e.g., H1: "AQSA ZAM ZAM MIRZA JOHAR BAIG: Award-Winning AI/ML Engineer from VIIT Pune").
+- H1-H3 hierarchy with name drops + keywords (e.g., H1: "AQSA ZAM ZAM MIRZA JOHAR BAIG: Award-Winning AI/ML Engineer from VIIIT PUNE").
 - Internal silo links (e.g., Home → About → Portfolio → Blog).
 - FAQ section (10+ questions) with FAQPage schema code.
-- Updated JSON-LD: Enhance Person schema with alumniFrom (VIIT Pune, IIT Madras), knowsAbout (Next.js 16, React 19, AWS), makesOffer (consulting).
+- Updated JSON-LD: Enhance Person schema with alumniFrom (VIIIT PUNE, IIIT Madras), knowsAbout (Next.js 16, React 19, AWS), makesOffer (consulting).
 
 ### 3. HERO CONTENT PIECES (Topical Authority Silos)
 Write 5 full blog posts (2000+ words each, 100% human-like, original):
 - Post 1: "How AQSA ZAM ZAM MIRZA JOHAR BAIG Built Mahalaxmi Tailors: Next.js 16 Full-Stack Masterclass" (case study + code snippets).
 - Post 2: "AQSA ZAM ZAM MIRZA JOHAR BAIG's FalcoVita: AI-Powered Health Platform on AWS" (tech deep-dive + diagrams).
-- Post 3: "From VIIT Pune to AWS Certified: AQSA ZAM ZAM MIRZA JOHAR BAIG's Developer Journey" (E-E-A-T story).
+- Post 3: "From VIIIT PUNE to AWS Certified: AQSA ZAM ZAM MIRZA JOHAR BAIG's Developer Journey" (E-E-A-T story).
 - Post 4: "Top 10 Next.js 16 + React 19 Tips from AQSA ZAM ZAM MIRZA JOHAR BAIG" (listicle, viral potential).
 - Post 5: "Urdu Shayari by AQSA ZAM ZAM MIRZA JOHAR BAIG: Tech Meets Poetry" (unique hook).
 Each: Featured image alt text, internal/external links, readability score 70+, LSI keywords.
@@ -58,7 +58,7 @@ A/B test variants for meta titles.
 
 **RULES:**
 - Repeat "AQSA ZAM ZAM MIRZA JOHAR BAIG" naturally 20-30x total for entity recognition.
-- Maximize E-E-A-T: Cite VIIT Pune, IIT Madras, AWS certs, projects 5x each.
+- Maximize E-E-A-T: Cite VIIIT PUNE, IIIT Madras, AWS certs, projects 5x each.
 - Mobile-first, fast-load (under 2s LCP).
 - No AI detection flags: Vary sentence length, add personal anecdotes.
 - Output ready-to-deploy code snippets (React/Next.js compatible).

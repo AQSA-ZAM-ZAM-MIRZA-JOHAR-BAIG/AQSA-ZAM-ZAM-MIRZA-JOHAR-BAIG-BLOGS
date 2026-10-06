@@ -35,7 +35,7 @@ const SLUG_META: Record<string, { title: string; description: string; datePublis
     datePublished: "2026-03-22",
     dateModified: "2026-03-25",
   },
-  "aqsa-zam-zam-mirza-johar-baig-viit-pune-aws-developer-journey": {
+  "aqsa-zam-zam-mirza-johar-baig-VIIIT-pune-aws-developer-journey": {
     title: "My AWS Developer Journey",
     description: "My journey of earning the AWS Certified Cloud Practitioner credential as a student.",
     datePublished: "2026-03-24",
@@ -74,7 +74,7 @@ export async function generateMetadata({
   const title = meta?.title ?? `${fallbackTitle} | AQSA M. J. BAIG`;
   const description =
     meta?.description ??
-    `${fallbackTitle} — a technical article by AQSA ZAM ZAM MIRZA JOHAR BAIG, AI/ML engineer and full-stack developer at VIIT Pune & IIT Madras. Deep-dive insights, code snippets, and real-world case studies.`;
+    `${fallbackTitle} — a technical article by AQSA ZAM ZAM MIRZA JOHAR BAIG, AI/ML engineer and full-stack developer at VIIIT PUNE & IIIT Madras. Deep-dive insights, code snippets, and real-world case studies.`;
 
   const canonicalUrl = `${BASE_URL}/blog/${slug}`;
 

@@ -47,7 +47,7 @@ int rangeSum = prefix[r+1] - prefix[l];</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "B.Tech CSE (AI/ML) at VIIT Pune (CGPA 8.77) and BSc Data Science at IIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "B.Tech CSE (AI/ML) at VIIIT PUNE (CGPA 8.77) and BSc Data Science at IIIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-03-15T00:00:00Z",
     updatedAt: "2026-03-20T00:00:00Z",
@@ -81,7 +81,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "B.Tech CSE (AI/ML) at VIIT Pune (CGPA 8.77) and BSc Data Science at IIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "B.Tech CSE (AI/ML) at VIIIT PUNE (CGPA 8.77) and BSc Data Science at IIIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-02-28T00:00:00Z",
     updatedAt: "2026-03-10T00:00:00Z",
@@ -108,7 +108,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "B.Tech CSE (AI/ML) at VIIT Pune (CGPA 8.77) and BSc Data Science at IIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "B.Tech CSE (AI/ML) at VIIIT PUNE (CGPA 8.77) and BSc Data Science at IIIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-01-10T00:00:00Z",
     updatedAt: "2026-02-01T00:00:00Z",
@@ -135,7 +135,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "B.Tech CSE (AI/ML) at VIIT Pune (CGPA 8.77) and BSc Data Science at IIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "B.Tech CSE (AI/ML) at VIIIT PUNE (CGPA 8.77) and BSc Data Science at IIIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-03-20T00:00:00Z",
     updatedAt: "2026-03-22T00:00:00Z",
@@ -162,7 +162,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "B.Tech CSE (AI/ML) at VIIT Pune (CGPA 8.77) and BSc Data Science at IIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "B.Tech CSE (AI/ML) at VIIIT PUNE (CGPA 8.77) and BSc Data Science at IIIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-03-22T00:00:00Z",
     updatedAt: "2026-03-25T00:00:00Z",
@@ -171,11 +171,11 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     tags: ["Flask", "Vue.js", "AWS", "AI", "Healthcare", "Redis"],
     categories: ["Flask", "Vue.js", "AWS", "AI"],
   },
-  "aqsa-zam-zam-mirza-johar-baig-viit-pune-aws-developer-journey": {
-    title: "My AWS Developer Journey — From VIIT Pune Student to Cloud Practitioner",
-    excerpt: "The journey of earning the AWS Certified Cloud Practitioner credential while studying at VIIT Pune and IIT Madras.",
+  "aqsa-zam-zam-mirza-johar-baig-VIIIT-pune-aws-developer-journey": {
+    title: "My AWS Developer Journey — From VIIIT PUNE Student to Cloud Practitioner",
+    excerpt: "The journey of earning the AWS Certified Cloud Practitioner credential while studying at VIIIT PUNE and IIIT Madras.",
     content: `
-      <p>Earning the AWS Certified Cloud Practitioner credential as a second-year engineering student at VIIT Pune required balancing coursework at two institutions simultaneously — VIIT Pune for B.Tech CSE (AI/ML) and IIT Madras for BSc Data Science.</p>
+      <p>Earning the AWS Certified Cloud Practitioner credential as a second-year engineering student at VIIIT PUNE required balancing coursework at two institutions simultaneously — VIIIT PUNE for B.Tech CSE (AI/ML) and IIIT Madras for BSc Data Science.</p>
       <h2>Why AWS Certification as a Student?</h2>
       <p>Cloud infrastructure is no longer optional for full-stack developers. Every production-grade application I wanted to build — from e-commerce to healthcare platforms — needed reliable, scalable infrastructure. AWS was the industry-standard choice.</p>
       <h2>The Study Approach</h2>
@@ -194,14 +194,14 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "B.Tech CSE (AI/ML) at VIIT Pune (CGPA 8.77) and BSc Data Science at IIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "B.Tech CSE (AI/ML) at VIIIT PUNE (CGPA 8.77) and BSc Data Science at IIIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-03-24T00:00:00Z",
     updatedAt: "2026-03-26T00:00:00Z",
     readTime: "9 min read",
     views: 1550,
-    tags: ["AWS", "Career", "VIIT Pune", "Cloud", "Certification"],
-    categories: ["AWS", "Career", "VIIT Pune"],
+    tags: ["AWS", "Career", "VIIIT PUNE", "Cloud", "Certification"],
+    categories: ["AWS", "Career", "VIIIT PUNE"],
   },
   "top-10-nextjs-16-react-19-tips-aqsa-zam-zam-mirza-johar-baig": {
     title: "Top 10 Next.js 16 & React 19 Tips for Production Apps",
@@ -233,7 +233,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "B.Tech CSE (AI/ML) at VIIT Pune (CGPA 8.77) and BSc Data Science at IIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "B.Tech CSE (AI/ML) at VIIIT PUNE (CGPA 8.77) and BSc Data Science at IIIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-03-25T00:00:00Z",
     updatedAt: "2026-03-27T00:00:00Z",
@@ -260,7 +260,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "B.Tech CSE (AI/ML) at VIIT Pune (CGPA 8.77) and BSc Data Science at IIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "B.Tech CSE (AI/ML) at VIIIT PUNE (CGPA 8.77) and BSc Data Science at IIIT Madras. AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-03-26T00:00:00Z",
     updatedAt: "2026-03-28T00:00:00Z",

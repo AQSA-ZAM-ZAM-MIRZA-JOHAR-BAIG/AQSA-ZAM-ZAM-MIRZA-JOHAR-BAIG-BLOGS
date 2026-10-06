@@ -195,7 +195,7 @@ export default function ContactPage() {
             <strong>AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> is open to collaboration on ambitious software projects. Whether you need a full-stack web application built from scratch, an existing system improved, a machine learning model integrated into your product, or your infrastructure migrated to AWS — bringing production experience and academic rigor to every engagement.
           </p>
           <p>
-            As a Computer Science undergraduate simultaneously enrolled at <strong>VIIT Pune</strong> (B.Tech AI &amp; ML, CGPA 8.77) and <strong>IIT Madras</strong> (BSc Data Science), the approach to every project is grounded in both theory and real-world deployment. Every architecture decision is made with scalability, security, and maintainability in mind — not just getting it to work in development.
+            As a Computer Science undergraduate simultaneously enrolled at <strong>VIIIT PUNE</strong> (B.Tech AI &amp; ML, CGPA 8.77) and <strong>IIIT Madras</strong> (BSc Data Science), the approach to every project is grounded in both theory and real-world deployment. Every architecture decision is made with scalability, security, and maintainability in mind — not just getting it to work in development.
           </p>
           <div className="grid md:grid-cols-3 gap-6 mt-6 not-prose">
             <div>

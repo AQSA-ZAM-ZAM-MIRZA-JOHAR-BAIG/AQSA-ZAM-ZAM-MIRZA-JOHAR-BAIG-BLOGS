@@ -6,7 +6,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Technical articles on AI/ML, AWS, Next.js, and DSA by AQSA ZAM ZAM MIRZA JOHAR BAIG, CS student at VIIT Pune & IIT Madras.",
+    "Technical articles on AI/ML, AWS, Next.js, and DSA by AQSA ZAM ZAM MIRZA JOHAR BAIG, CS student at VIIIT PUNE & IIIT Madras.",
   alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/blog" },
 };
 
@@ -57,13 +57,13 @@ const MOCK_POSTS = [
     categories: ["Flask", "Vue.js", "AWS", "AI"]
   },
   {
-    title: "My AWS Developer Journey — From VIIT Pune Student to Cloud Practitioner",
-    slug: "aqsa-zam-zam-mirza-johar-baig-viit-pune-aws-developer-journey",
-    excerpt: "The journey of earning the AWS Certified Cloud Practitioner credential while studying at VIIT Pune and IIT Madras.",
+    title: "My AWS Developer Journey — From VIIIT PUNE Student to Cloud Practitioner",
+    slug: "aqsa-zam-zam-mirza-johar-baig-VIIIT-pune-aws-developer-journey",
+    excerpt: "The journey of earning the AWS Certified Cloud Practitioner credential while studying at VIIIT PUNE and IIIT Madras.",
     author: { name: "AQSA ZAM ZAM MIRZA JOHAR BAIG" },
     createdAt: new Date("2026-03-24").toISOString(),
     views: 1550,
-    categories: ["AWS", "Career", "VIIT Pune"]
+    categories: ["AWS", "Career", "VIIIT PUNE"]
   },
   {
     title: "Top 10 Next.js 16 & React 19 Tips for Production Apps",
@@ -97,7 +97,7 @@ export default function BlogsPage() {
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold font-outfit mb-4 text-gradient">Blog by AQSA ZAM ZAM MIRZA JOHAR BAIG</h1>
           <p className="text-muted-foreground text-lg">
-            Technical articles on AI/ML, AWS, Next.js, and full-stack development — plus Urdu Shayari. Written by AQSA ZAM ZAM MIRZA JOHAR BAIG, CS undergrad at VIIT Pune & IIT Madras.
+            Technical articles on AI/ML, AWS, Next.js, and full-stack development — plus Urdu Shayari. Written by AQSA ZAM ZAM MIRZA JOHAR BAIG, CS undergrad at VIIIT PUNE & IIIT Madras.
           </p>
         </div>
         

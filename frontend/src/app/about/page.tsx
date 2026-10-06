@@ -6,7 +6,7 @@ import { Download, MapPin, GraduationCap, Code2, Database, Cloud } from "lucide-
 export const metadata: Metadata = {
   title: "About",
   description:
-    "AQSA ZAM ZAM MIRZA JOHAR BAIG: AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner from VIIT Pune.",
+    "AQSA ZAM ZAM MIRZA JOHAR BAIG: AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner from VIIIT PUNE.",
   alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/about" },
 };
 
@@ -47,14 +47,14 @@ export default function AboutPage() {
             <div className="space-y-4 text-muted-foreground">
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-bold text-white">Vishwakarma Institute of Information Technology (VIIT), Pune</h3>
+                  <h3 className="font-bold text-white">Vishwakarma Institute of Information Technology (VIIIT), Pune</h3>
                   <p>Bachelor of Technology in CS & E (AI & ML) | CGPA: 8.77</p>
                 </div>
                 <span className="text-sm">2023 – 2027</span>
               </div>
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-bold text-white">Indian Institute of Technology (IITM), IIT Madras</h3>
+                  <h3 className="font-bold text-white">Indian Institute of Technology (IITM), IIIT Madras</h3>
                   <p>Bachelor of Science in Data Science | CGPA: 7.44</p>
                 </div>
                 <span className="text-sm">2023 – 2027</span>
@@ -106,7 +106,7 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-invert max-w-none space-y-4 text-muted-foreground">
               <p>
-                My journey into software development started with a deep curiosity about how things work under the hood. When I cleared <strong>JEE Advanced 2023</strong> and joined <strong>Vishwakarma Institute of Information Technology (VIIT), Pune</strong> for B.Tech in Computer Science with AI &amp; ML specialization, I knew I was stepping into the right field. Simultaneously enrolling at <strong>IIT Madras</strong> for a BSc in Data Science reinforced my commitment to mastering both theory and practice.
+                My journey into software development started with a deep curiosity about how things work under the hood. When I cleared <strong>JEE Advanced 2023</strong> and joined <strong>Vishwakarma Institute of Information Technology (VIIIT), Pune</strong> for B.Tech in Computer Science with AI &amp; ML specialization, I knew I was stepping into the right field. Simultaneously enrolling at <strong>IIIT Madras</strong> for a BSc in Data Science reinforced my commitment to mastering both theory and practice.
               </p>
               <p>
                 What truly excited me was bridging the gap between academic knowledge and real-world impact. My first major project, <strong>Mahalaxmi Tailors</strong>, taught me more about production engineering in three days than months of coursework could — juggling AWS CloudFormation templates, Razorpay payment webhooks, JWT-based RBAC, and Cloudinary image pipelines simultaneously. That experience shaped how I approach every project: ship fast, learn from users, iterate.
@@ -138,11 +138,11 @@ export default function AboutPage() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2" />
-                <span><strong className="text-foreground">CGPA 8.77 at VIIT Pune</strong> — Consistent academic performance in Computer Science with AI &amp; ML specialization, covering Data Structures, Algorithms, Machine Learning, and System Design.</span>
+                <span><strong className="text-foreground">CGPA 8.77 at VIIIT PUNE</strong> — Consistent academic performance in Computer Science with AI &amp; ML specialization, covering Data Structures, Algorithms, Machine Learning, and System Design.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2" />
-                <span><strong className="text-foreground">IIT Madras BSc Data Science</strong> — Parallel degree focusing on statistical modeling, data analysis, Python programming, and machine learning foundations from one of India's premier technical institutions.</span>
+                <span><strong className="text-foreground">IIIT Madras BSc Data Science</strong> — Parallel degree focusing on statistical modeling, data analysis, Python programming, and machine learning foundations from one of India's premier technical institutions.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2" />
@@ -184,7 +184,7 @@ export default function AboutPage() {
               </li>
               <li className="flex justify-between">
                 <span className="text-muted-foreground">University</span>
-                <span className="font-medium text-right">VIIT Pune</span>
+                <span className="font-medium text-right">VIIIT PUNE</span>
               </li>
               <li className="flex justify-between">
                 <span className="text-muted-foreground">Specialization</span>

@@ -6,7 +6,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "AI/ML Engineer | AQSA M. J. BAIG",
   description:
-    "Portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG. AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner from VIIT Pune.",
+    "Portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG. AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner from VIIIT PUNE.",
   alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/" },
   openGraph: {
     title: "AI/ML Engineer | AQSA M. J. BAIG",
@@ -26,7 +26,7 @@ const faqSchema = {
       name: "Who is AQSA ZAM ZAM MIRZA JOHAR BAIG?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "AQSA ZAM ZAM MIRZA JOHAR BAIG is a Computer Science undergraduate at VIIT Pune (B.Tech AI & ML, CGPA 8.77) and IIT Madras (BSc Data Science), specializing in Artificial Intelligence, Machine Learning, and Full-Stack Web Development. She is an AWS Certified Cloud Practitioner and has built production systems like Mahalaxmi Tailors e-commerce and the FalcoVita healthcare platform.",
+        text: "AQSA ZAM ZAM MIRZA JOHAR BAIG is a Computer Science undergraduate at VIIIT PUNE (B.Tech AI & ML, CGPA 8.77) and IIIT Madras (BSc Data Science), specializing in Artificial Intelligence, Machine Learning, and Full-Stack Web Development. She is an AWS Certified Cloud Practitioner and has built production systems like Mahalaxmi Tailors e-commerce and the FalcoVita healthcare platform.",
       },
     },
     {
@@ -42,7 +42,7 @@ const faqSchema = {
       name: "Where does AQSA ZAM ZAM MIRZA JOHAR BAIG study?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "AQSA ZAM ZAM MIRZA JOHAR BAIG studies at two premier institutions simultaneously: Vishwakarma Institute of Information Technology (VIIT Pune), pursuing B.Tech in CSE with AI & ML specialization (2023–2027, CGPA 8.77), and the Indian Institute of Technology Madras (IIT Madras) for a BSc in Data Science (2023–2027, CGPA 7.44).",
+        text: "AQSA ZAM ZAM MIRZA JOHAR BAIG studies at two premier institutions simultaneously: Vishwakarma Institute of Information Technology (VIIIT PUNE), pursuing B.Tech in CSE with AI & ML specialization (2023–2027, CGPA 8.77), and the Indian Institute of Technology Madras (IIIT Madras) for a BSc in Data Science (2023–2027, CGPA 7.44).",
       },
     },
     {
@@ -106,7 +106,7 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col items-center md:items-start">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full glass border-primary/30 text-primary text-sm font-medium mb-6 animate-pulse">
-              <span>CS Undergrad @ VIIT Pune & IIT Madras · AWS Certified · AI/ML Specialist</span>
+              <span>CS Undergrad @ VIIIT PUNE & IIIT Madras · AWS Certified · AI/ML Specialist</span>
             </div>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold font-outfit tracking-tight mb-6">
@@ -117,7 +117,7 @@ export default function Home() {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl">
-              Computer Science undergraduate at <strong>VIIT Pune</strong> and <strong>IIT Madras</strong>,
+              Computer Science undergraduate at <strong>VIIIT PUNE</strong> and <strong>IIIT Madras</strong>,
               specializing in AI & Machine Learning. I build production-grade full-stack applications,
               deploy cloud architectures on <strong>AWS</strong>, and write original Urdu Shayari.
             </p>
@@ -140,7 +140,7 @@ export default function Home() {
             {/* Trust signals */}
             <div className="flex flex-wrap gap-6 mt-8 text-sm text-muted-foreground">
               <span className="flex items-center gap-1"><Cloud className="w-4 h-4 text-primary" /> AWS Certified</span>
-              <span className="flex items-center gap-1"><Cpu className="w-4 h-4 text-primary" /> CGPA 8.77 @ VIIT Pune</span>
+              <span className="flex items-center gap-1"><Cpu className="w-4 h-4 text-primary" /> CGPA 8.77 @ VIIIT PUNE</span>
               <span className="flex items-center gap-1"><Code className="w-4 h-4 text-primary" /> 3 Production Projects</span>
             </div>
           </div>
@@ -148,7 +148,7 @@ export default function Home() {
           <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl relative shrink-0 bg-secondary/50">
             <Image
               src="/profile.jpg"
-              alt="AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML Engineer and Full-Stack Developer from VIIT Pune"
+              alt="AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML Engineer and Full-Stack Developer from VIIIT PUNE"
               fill
               className="object-cover"
               priority
@@ -196,7 +196,7 @@ export default function Home() {
             {[
               {
                 q: "Who is AQSA ZAM ZAM MIRZA JOHAR BAIG?",
-                a: "An AI/ML engineer and full-stack developer pursuing dual degrees at VIIT Pune (B.Tech CSE AI/ML, CGPA 8.77) and IIT Madras (BSc Data Science). AWS Certified Cloud Practitioner with 3 production-grade projects.",
+                a: "An AI/ML engineer and full-stack developer pursuing dual degrees at VIIIT PUNE (B.Tech CSE AI/ML, CGPA 8.77) and IIIT Madras (BSc Data Science). AWS Certified Cloud Practitioner with 3 production-grade projects.",
               },
               {
                 q: "What are AQSA ZAM ZAM MIRZA JOHAR BAIG's key projects?",
