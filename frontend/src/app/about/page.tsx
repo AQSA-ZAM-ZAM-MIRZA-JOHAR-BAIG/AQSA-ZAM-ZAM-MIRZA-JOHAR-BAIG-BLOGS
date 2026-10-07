@@ -155,7 +155,7 @@ export default function AboutPage() {
         <div className="space-y-6">
           <div className="w-full aspect-square rounded-2xl overflow-hidden border border-white/10 relative bg-secondary/30 mb-6">
             <Image 
-              src="/profile.jpg" 
+              src="/profile.png" 
               alt="AQSA ZAM ZAM MIRZA JOHAR BAIG" 
               fill
               className="object-cover"

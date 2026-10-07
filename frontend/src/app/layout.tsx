@@ -128,7 +128,7 @@ export default function RootLayout({
       "Aqsa M. J. Baig"
     ],
     url: BASE_URL,
-    image: `${BASE_URL}/profile.jpg`,
+    image: `${BASE_URL}/profile.png`,
     jobTitle: "AI/ML Engineer & Full-Stack Developer",
     description:
       "AQSA ZAM ZAM MIRZA JOHAR BAIG is a Computer Science undergraduate at VIIIT PUNE and IIIT Madras, specializing in AI/ML, building scalable full-stack applications and cloud architectures on AWS.",

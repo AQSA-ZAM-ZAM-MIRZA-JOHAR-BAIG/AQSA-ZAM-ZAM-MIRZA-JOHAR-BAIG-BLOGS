@@ -147,7 +147,7 @@ export default function Home() {
 
           <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl relative shrink-0 bg-secondary/50">
             <Image
-              src="/profile.jpg"
+              src="/profile.png"
               alt="AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML Engineer and Full-Stack Developer from VIIIT PUNE"
               fill
               className="object-cover"
