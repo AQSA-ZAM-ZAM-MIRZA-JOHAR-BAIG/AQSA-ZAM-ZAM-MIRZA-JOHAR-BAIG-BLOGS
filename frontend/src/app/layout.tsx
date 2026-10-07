@@ -18,13 +18,21 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    template: "AQSA M. J. BAIG | %s",
-    default: "AQSA M. J. BAIG | AI/ML Engineer",
+    template: "%s | Aqsa Zam Zam Mirza Johar Baig (Aqsa Mirza)",
+    default: "Aqsa Zam Zam Mirza Johar Baig (Aqsa Mirza) | Engineering & AI/ML Blogs",
   },
   description:
-    "Portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG. AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner.",
+    "Official engineering, AI/ML, and technology blog of Aqsa Zam Zam Mirza Johar Baig (also known as Aqsa Zam Zam Mirza and Aqsa Mirza) – AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner.",
   keywords: [
     "AQSA ZAM ZAM MIRZA JOHAR BAIG",
+    "Aqsa Zam Zam Mirza Johar Baig",
+    "aqsa zam zam mirza johar baig",
+    "AQSA ZAM ZAM MIRZA",
+    "Aqsa Zam Zam Mirza",
+    "aqsa zam zam mirza",
+    "AQSA MIRZA",
+    "Aqsa Mirza",
+    "aqsa mirza",
     "AqsA Johar Baig portfolio",
     "AqsA Zam Zam Mirza VIIIT PUNE",
     "AqsA Mirza AI ML engineer",
@@ -45,9 +53,9 @@ export const metadata: Metadata = {
     "Full stack MERN developer Pune Maharashtra",
     "AI ML engineer IIIT Madras student",
   ],
-  authors: [{ name: "AQSA ZAM ZAM MIRZA JOHAR BAIG", url: BASE_URL }],
-  creator: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
-  publisher: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
+  authors: [{ name: "Aqsa Zam Zam Mirza Johar Baig (Aqsa Mirza)", url: BASE_URL }],
+  creator: "Aqsa Zam Zam Mirza Johar Baig",
+  publisher: "Aqsa Zam Zam Mirza Johar Baig",
   category: "Technology, Software Development, AI/ML",
   robots: {
     index: true,
@@ -65,28 +73,29 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    title: "AQSA M. J. BAIG | AI/ML Engineer",
+    title: "Aqsa Zam Zam Mirza Johar Baig (Aqsa Mirza) | Engineering & AI/ML Blogs",
     description:
-      "Portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG. AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner.",
+      "Official portfolio and blog of Aqsa Zam Zam Mirza Johar Baig (Aqsa Mirza). AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML Engineer & Full-Stack Developer Portfolio",
+        alt: "Aqsa Zam Zam Mirza Johar Baig (Aqsa Mirza) — AI/ML Engineer & Full-Stack Developer Portfolio",
       },
     ],
-    siteName: "AQSA ZAM ZAM MIRZA JOHAR BAIG Portfolio",
+    siteName: "Aqsa Zam Zam Mirza Johar Baig Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AQSA M. J. BAIG | AI/ML Engineer",
+    title: "Aqsa Zam Zam Mirza Johar Baig (Aqsa Mirza) | AI/ML Engineer",
     description:
-      "Portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG. AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner.",
+      "Portfolio of Aqsa Zam Zam Mirza Johar Baig (Aqsa Mirza). AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner.",
     images: ["/og-image.jpg"],
     creator: "@aqsamirza08",
   },
   verification: {
+    google: "googlee89522a79f5eb2c7",
     other: {
       "p:domain_verify": "1727ddde2145d7b50d1833865be021a6",
     },
@@ -102,13 +111,21 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Person",
     "@id": `${BASE_URL}/#person`,
-    name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
+    name: "Aqsa Zam Zam Mirza Johar Baig",
     alternateName: [
-      "AqsA Zam Zam Mirza Johar Baig",
-      "AqsA Johar Baig",
-      "AqsA Mirza",
-      "AqsA Baig",
-      "AqsA Zam Zam Mirza",
+      "AQSA ZAM ZAM MIRZA JOHAR BAIG",
+      "Aqsa Zam Zam Mirza Johar Baig",
+      "aqsa zam zam mirza johar baig",
+      "AQSA ZAM ZAM MIRZA",
+      "Aqsa Zam Zam Mirza",
+      "aqsa zam zam mirza",
+      "AQSA MIRZA",
+      "Aqsa Mirza",
+      "aqsa mirza",
+      "Aqsa Johar Baig",
+      "Aqsa Baig",
+      "Aqsa Zam Zam Mirza",
+      "Aqsa M. J. Baig"
     ],
     url: BASE_URL,
     image: `${BASE_URL}/profile.jpg`,
@@ -204,17 +221,23 @@ export default function RootLayout({
       },
     ],
     sameAs: [
-      "https://www.linkedin.com/in/aqsamirza08",
       "https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG",
+      "https://www.linkedin.com/in/aqsamirza08",
       "https://www.kaggle.com/aqsamirza08",
       "https://aqsamirza08.medium.com/",
       "https://stackoverflow.com/users/32468898/aqsa-zam-zam-mirza-johar-baig",
       "https://www.youtube.com/@aqsamirza08",
       "https://aqsa-zam-zam-mirza-johar-baig-portf.vercel.app/",
-      "https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/",
+      "https://aqsa-zam-zam-mirza-johar-baig-portfolio-3.vercel.app/",
+      "https://aqsazamzammirzajoharbaig.com/",
+      "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/",
       "https://aqsa-zam-zam-mirza-johar-baig-const.vercel.app/",
+      "https://firgenerator.org/",
       "https://aqsa-zam-zam-mirza-johar-baig-law-d.vercel.app/",
-      "https://aqsa-zam-zam-mirza-johar-baig-law-f.vercel.app/"
+      "https://aqsa-zam-zam-mirza-johar-baig-law-f.vercel.app/",
+      "https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/",
+      "https://www.aqsazamzammirzajoharbaig.com/",
+      "https://aqsa-zam-zam-mirza-johar-baig.github.io/Yashwantrao-chavan-mahavidyalaya/"
     ],
   };
 
@@ -331,13 +354,18 @@ export default function RootLayout({
               </div>
 
               <div className="text-center md:text-left">
-                <h3 className="text-foreground font-bold mb-4 uppercase text-xs tracking-widest">Network</h3>
+                <h3 className="text-foreground font-bold mb-4 uppercase text-xs tracking-widest">Verified Network</h3>
                 <nav className="flex flex-col gap-2 text-sm text-muted-foreground">
-                  <a href="https://aqsa-zam-zam-mirza-johar-baig-portf.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Main Portfolio</a>
-                  <a href="https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Urdu Shayari Site</a>
-                  <a href="https://aqsa-zam-zam-mirza-johar-baig-const.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Constitutional Law</a>
-                  <a href="https://aqsa-zam-zam-mirza-johar-baig-law-d.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Law Dictionary</a>
-                  <a href="https://aqsa-zam-zam-mirza-johar-baig-law-f.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Law for Beginners</a>
+                  <a href="https://aqsa-zam-zam-mirza-johar-baig-portf.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Aqsa Zam Zam Mirza Johar Baig – AI Portfolio</a>
+                  <a href="https://aqsa-zam-zam-mirza-johar-baig-const.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Aqsa Zam Zam Mirza – Constitutional Law</a>
+                  <a href="https://aqsa-zam-zam-mirza-johar-baig-law-d.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Aqsa Mirza – LexiLaw Legal Dictionary</a>
+                  <a href="https://aqsa-zam-zam-mirza-johar-baig-law-f.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Aqsa Zam Zam Mirza – Law For Beginners</a>
+                  <a href="https://aqsazamzammirzajoharbaig.com/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Aqsa Zam Zam Mirza – Alerto Market Bot</a>
+                  <a href="https://firgenerator.org/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Aqsa Mirza – FIR Generator Online</a>
+                  <a href="https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">AQSA ZAM ZAM MIRZA JOHAR BAIG – Urdu Shayari</a>
+                  <a href="https://www.aqsazamzammirzajoharbaig.com/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Aqsa Zam Zam Mirza Johar Baig – Drawing Center</a>
+                  <a href="https://aqsa-zam-zam-mirza-johar-baig-portfolio-3.vercel.app/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Aqsa Mirza – VIP Logistics Portfolio</a>
+                  <a href="https://aqsa-zam-zam-mirza-johar-baig.github.io/Yashwantrao-chavan-mahavidyalaya/" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Aqsa Zam Zam Mirza Johar Baig – Academic Records</a>
                 </nav>
               </div>
             </div>
