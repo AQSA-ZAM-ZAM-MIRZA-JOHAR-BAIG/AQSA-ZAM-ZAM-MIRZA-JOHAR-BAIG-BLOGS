@@ -152,6 +152,7 @@ export default function Home() {
               fill
               className="object-cover"
               priority
+              unoptimized
               fetchPriority="high"
               sizes="(max-width: 768px) 256px, 384px"
             />

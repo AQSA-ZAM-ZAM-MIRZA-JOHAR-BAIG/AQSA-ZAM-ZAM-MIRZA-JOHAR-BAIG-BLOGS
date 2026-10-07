@@ -158,6 +158,8 @@ export default function AboutPage() {
               src="/profile.png" 
               alt="AQSA ZAM ZAM MIRZA JOHAR BAIG" 
               fill
+              unoptimized
+              priority
               className="object-cover"
             />
           </div>
