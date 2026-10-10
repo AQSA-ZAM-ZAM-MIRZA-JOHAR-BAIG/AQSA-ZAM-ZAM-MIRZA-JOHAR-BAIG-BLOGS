@@ -6,7 +6,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Technical articles on AI/ML, AWS, Next.js, and DSA by AQSA ZAM ZAM MIRZA JOHAR BAIG, CS student at Yashwantrao College (Grade O Outstanding, Open Category).",
+    "Technical articles on AI/ML, AWS, Next.js, and DSA by AQSA ZAM ZAM MIRZA JOHAR BAIG, CS student at Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category).",
   alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/blog" },
 };
 
@@ -57,13 +57,13 @@ const MOCK_POSTS = [
     categories: ["Flask", "Vue.js", "AWS", "AI"]
   },
   {
-    title: "My AWS Developer Journey — From Yashwantrao College Student to Cloud Practitioner",
+    title: "My AWS Developer Journey — From Y.C. College Student to Cloud Practitioner",
     slug: "aqsa-zam-zam-mirza-johar-baig-yashwantrao-college-aws-developer-journey",
-    excerpt: "The journey of earning the AWS Certified Cloud Practitioner credential while studying Computer Science at Yashwantrao College.",
+    excerpt: "The journey of earning the AWS Certified Cloud Practitioner credential while studying Computer Science at Y.C. College (Yashwantrao Chavan College).",
     author: { name: "AQSA ZAM ZAM MIRZA JOHAR BAIG" },
     createdAt: new Date("2026-03-24").toISOString(),
     views: 1550,
-    categories: ["AWS", "Career", "Yashwantrao College"]
+    categories: ["AWS", "Career", "Y.C. College"]
   },
   {
     title: "Top 10 Next.js 16 & React 19 Tips for Production Apps",
@@ -97,7 +97,7 @@ export default function BlogsPage() {
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold font-outfit mb-4 text-gradient">Blog by AQSA ZAM ZAM MIRZA JOHAR BAIG</h1>
           <p className="text-muted-foreground text-lg">
-            Technical articles on AI/ML, AWS, Next.js, and full-stack development — plus Urdu Shayari. Written by AQSA ZAM ZAM MIRZA JOHAR BAIG, CS student at Yashwantrao College (Grade O Outstanding, Open Category).
+            Technical articles on AI/ML, AWS, Next.js, and full-stack development — plus Urdu Shayari. Written by AQSA ZAM ZAM MIRZA JOHAR BAIG, CS student at Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category).
           </p>
         </div>
         

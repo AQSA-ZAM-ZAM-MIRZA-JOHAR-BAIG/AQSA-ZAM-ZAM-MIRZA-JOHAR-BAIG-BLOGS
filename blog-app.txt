@@ -28,13 +28,13 @@ For each core page (Home, About, Portfolio, Blog index, Contact), provide:
 - H1-H3 hierarchy with name drops + keywords (e.g., H1: "AQSA ZAM ZAM MIRZA JOHAR BAIG: Award-Winning AI/ML Engineer from Yashwantrao College").
 - Internal silo links (e.g., Home → About → Portfolio → Blog).
 - FAQ section (10+ questions) with FAQPage schema code.
-- Updated JSON-LD: Enhance Person schema with alumniFrom (Yashwantrao College), knowsAbout (Next.js 16, React 19, AWS), makesOffer (consulting).
+- Updated JSON-LD: Enhance Person schema with alumniFrom (Y.C. College), knowsAbout (Next.js 16, React 19, AWS), makesOffer (consulting).
 
 ### 3. HERO CONTENT PIECES (Topical Authority Silos)
 Write 5 full blog posts (2000+ words each, 100% human-like, original):
 - Post 1: "How AQSA ZAM ZAM MIRZA JOHAR BAIG Built Mahalaxmi Tailors: Next.js 16 Full-Stack Masterclass" (case study + code snippets).
 - Post 2: "AQSA ZAM ZAM MIRZA JOHAR BAIG's FalcoVita: AI-Powered Health Platform on AWS" (tech deep-dive + diagrams).
-- Post 3: "From Yashwantrao College to AWS Certified: AQSA ZAM ZAM MIRZA JOHAR BAIG's Developer Journey" (E-E-A-T story).
+- Post 3: "From Y.C. College to AWS Certified: AQSA ZAM ZAM MIRZA JOHAR BAIG's Developer Journey" (E-E-A-T story).
 - Post 4: "Top 10 Next.js 16 + React 19 Tips from AQSA ZAM ZAM MIRZA JOHAR BAIG" (listicle, viral potential).
 - Post 5: "Urdu Shayari by AQSA ZAM ZAM MIRZA JOHAR BAIG: Tech Meets Poetry" (unique hook).
 Each: Featured image alt text, internal/external links, readability score 70+, LSI keywords.
@@ -58,7 +58,7 @@ A/B test variants for meta titles.
 
 **RULES:**
 - Repeat "AQSA ZAM ZAM MIRZA JOHAR BAIG" naturally 20-30x total for entity recognition.
-- Maximize E-E-A-T: Cite Yashwantrao College, AWS certs, projects 5x each.
+- Maximize E-E-A-T: Cite Y.C. College (Yashwantrao Chavan College), AWS certs, projects 5x each.
 - Mobile-first, fast-load (under 2s LCP).
 - No AI detection flags: Vary sentence length, add personal anecdotes.
 - Output ready-to-deploy code snippets (React/Next.js compatible).

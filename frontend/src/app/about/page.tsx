@@ -6,7 +6,7 @@ import { Download, MapPin, GraduationCap, Code2, Database, Cloud } from "lucide-
 export const metadata: Metadata = {
   title: "About",
   description:
-    "AQSA ZAM ZAM MIRZA JOHAR BAIG: AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner from Yashwantrao College (Grade O Outstanding, Open Category).",
+    "AQSA ZAM ZAM MIRZA JOHAR BAIG: AI/ML Engineer, Full-Stack Developer & AWS Certified Cloud Practitioner from Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category).",
   alternates: { canonical: "https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/about" },
 };
 
@@ -47,7 +47,7 @@ export default function AboutPage() {
             <div className="space-y-4 text-muted-foreground">
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-bold text-white">Yashwantrao College</h3>
+                  <h3 className="font-bold text-white">Y.C. College (Yashwantrao Chavan College)</h3>
                   <p>Computer Science Academic Merit Standing | Grade O (Outstanding) · Open Category</p>
                 </div>
                 <span className="text-sm">2024 – 2025</span>
@@ -99,7 +99,7 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-invert max-w-none space-y-4 text-muted-foreground">
               <p>
-                My journey into software development started with a deep curiosity about how things work under the hood. When I joined <strong>Yashwantrao College</strong> for Computer Science and achieved <strong>Grade O (Outstanding)</strong> under the Open Category, I knew I was stepping into the right field. Mastering computer science and machine learning reinforced my commitment to excellence in both theory and practical software engineering.
+                My journey into software development started with a deep curiosity about how things work under the hood. When I joined <strong>Y.C. College (Yashwantrao Chavan College)</strong> for Computer Science and achieved <strong>Grade O (Outstanding)</strong> under the Open Category, I knew I was stepping into the right field. Mastering computer science and machine learning reinforced my commitment to excellence in both theory and practical software engineering.
               </p>
               <p>
                 What truly excited me was bridging the gap between academic knowledge and real-world impact. My first major project, <strong>Mahalaxmi Tailors</strong>, taught me more about production engineering in three days than months of coursework could — juggling AWS CloudFormation templates, Razorpay payment webhooks, JWT-based RBAC, and Cloudinary image pipelines simultaneously. That experience shaped how I approach every project: ship fast, learn from users, iterate.
@@ -131,7 +131,7 @@ export default function AboutPage() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2" />
-                <span><strong className="text-foreground">Grade O (Outstanding) at Yashwantrao College</strong> — Academic merit standing in Computer Science under Open Category, covering Data Structures, Algorithms, Machine Learning, and System Design.</span>
+                <span><strong className="text-foreground">Grade O (Outstanding) at Y.C. College (Yashwantrao Chavan College)</strong> — Academic merit standing in Computer Science under Open Category, covering Data Structures, Algorithms, Machine Learning, and System Design.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2" />
@@ -175,7 +175,7 @@ export default function AboutPage() {
               </li>
               <li className="flex justify-between">
                 <span className="text-muted-foreground">College</span>
-                <span className="font-medium text-right">Yashwantrao College</span>
+                <span className="font-medium text-right">Y.C. College (Yashwantrao Chavan College)</span>
               </li>
               <li className="flex justify-between">
                 <span className="text-muted-foreground">Specialization</span>

@@ -154,7 +154,7 @@ export default function PortfolioPage() {
             className="glass p-5 rounded-xl border border-white/10 hover:border-primary/40 hover:-translate-y-1 transition-all group"
           >
             <h3 className="font-semibold font-outfit text-sm mb-1 group-hover:text-primary transition-colors">
-              My AWS Journey — Yashwantrao College to Cloud Practitioner
+              My AWS Journey — Y.C. College to Cloud Practitioner
             </h3>
             <p className="text-muted-foreground text-xs">AWS · EC2 · S3 · CloudFront · Certification</p>
             <span className="text-primary text-xs mt-3 inline-block">Read article →</span>

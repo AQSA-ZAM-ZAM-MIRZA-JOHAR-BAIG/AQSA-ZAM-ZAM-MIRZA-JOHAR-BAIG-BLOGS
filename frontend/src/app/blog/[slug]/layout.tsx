@@ -74,7 +74,7 @@ export async function generateMetadata({
   const title = meta?.title ?? `${fallbackTitle} | AQSA M. J. BAIG`;
   const description =
     meta?.description ??
-    `${fallbackTitle} — a technical article by AQSA ZAM ZAM MIRZA JOHAR BAIG, AI/ML engineer and full-stack developer from Yashwantrao College (Grade O Outstanding, Open Category). Deep-dive insights, code snippets, and real-world case studies.`;
+    `${fallbackTitle} — a technical article by AQSA ZAM ZAM MIRZA JOHAR BAIG, AI/ML engineer and full-stack developer from Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category). Deep-dive insights, code snippets, and real-world case studies.`;
 
   const canonicalUrl = `${BASE_URL}/blog/${slug}`;
 

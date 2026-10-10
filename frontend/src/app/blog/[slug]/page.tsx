@@ -47,7 +47,7 @@ int rangeSum = prefix[r+1] - prefix[l];</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "Computer Science achiever from Yashwantrao College (Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "Computer Science achiever from Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-03-15T00:00:00Z",
     updatedAt: "2026-03-20T00:00:00Z",
@@ -81,7 +81,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "Computer Science achiever from Yashwantrao College (Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "Computer Science achiever from Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-02-28T00:00:00Z",
     updatedAt: "2026-03-10T00:00:00Z",
@@ -108,7 +108,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "Computer Science achiever from Yashwantrao College (Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "Computer Science achiever from Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-01-10T00:00:00Z",
     updatedAt: "2026-02-01T00:00:00Z",
@@ -135,7 +135,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "Computer Science achiever from Yashwantrao College (Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "Computer Science achiever from Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-03-20T00:00:00Z",
     updatedAt: "2026-03-22T00:00:00Z",
@@ -162,7 +162,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "Computer Science achiever from Yashwantrao College (Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "Computer Science achiever from Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-03-22T00:00:00Z",
     updatedAt: "2026-03-25T00:00:00Z",
@@ -172,10 +172,10 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     categories: ["Flask", "Vue.js", "AWS", "AI"],
   },
   "aqsa-zam-zam-mirza-johar-baig-yashwantrao-college-aws-developer-journey": {
-    title: "My AWS Developer Journey — From Yashwantrao College Student to Cloud Practitioner",
-    excerpt: "The journey of earning the AWS Certified Cloud Practitioner credential while studying Computer Science at Yashwantrao College.",
+    title: "My AWS Developer Journey — From Y.C. College Student to Cloud Practitioner",
+    excerpt: "The journey of earning the AWS Certified Cloud Practitioner credential while studying Computer Science at Y.C. College (Yashwantrao Chavan College).",
     content: `
-      <p>Earning the AWS Certified Cloud Practitioner credential while studying Computer Science at Yashwantrao College required dedication, deep architecture study, and deploying production projects on AWS.</p>
+      <p>Earning the AWS Certified Cloud Practitioner credential while studying Computer Science at Y.C. College (Yashwantrao Chavan College) required dedication, deep architecture study, and deploying production projects on AWS.</p>
       <h2>Why AWS Certification as a Student?</h2>
       <p>Cloud infrastructure is no longer optional for full-stack developers. Every production-grade application I wanted to build — from e-commerce to healthcare platforms — needed reliable, scalable infrastructure. AWS was the industry-standard choice.</p>
       <h2>The Study Approach</h2>
@@ -194,14 +194,14 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "Computer Science achiever from Yashwantrao College (Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "Computer Science achiever from Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-03-24T00:00:00Z",
     updatedAt: "2026-03-26T00:00:00Z",
     readTime: "9 min read",
     views: 1550,
-    tags: ["AWS", "Career", "Yashwantrao College", "Cloud", "Certification"],
-    categories: ["AWS", "Career", "Yashwantrao College"],
+    tags: ["AWS", "Career", "Y.C. College", "Cloud", "Certification"],
+    categories: ["AWS", "Career", "Y.C. College"],
   },
   "top-10-nextjs-16-react-19-tips-aqsa-zam-zam-mirza-johar-baig": {
     title: "Top 10 Next.js 16 & React 19 Tips for Production Apps",
@@ -233,7 +233,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "Computer Science achiever from Yashwantrao College (Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "Computer Science achiever from Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-03-25T00:00:00Z",
     updatedAt: "2026-03-27T00:00:00Z",
@@ -260,7 +260,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
     author: {
       name: "AQSA ZAM ZAM MIRZA JOHAR BAIG",
       role: "AI/ML Engineer & Full-Stack Developer",
-      bio: "Computer Science achiever from Yashwantrao College (Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
+      bio: "Computer Science achiever from Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category). AWS Certified Cloud Practitioner. Writes about DSA, ML, AWS, and full-stack engineering."
     },
     createdAt: "2026-03-26T00:00:00Z",
     updatedAt: "2026-03-28T00:00:00Z",

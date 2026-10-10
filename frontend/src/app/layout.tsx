@@ -34,6 +34,8 @@ export const metadata: Metadata = {
     "Aqsa Mirza",
     "aqsa mirza",
     "AqsA Johar Baig portfolio",
+    "Y.C. College",
+    "Y.C College",
     "AqsA Zam Zam Mirza Yashwantrao College",
     "AqsA Mirza AI ML engineer",
     "AqsA Baig Next.js developer",
@@ -129,7 +131,7 @@ export default function RootLayout({
     image: `${BASE_URL}/profile.png`,
     jobTitle: "AI/ML Engineer & Full-Stack Developer",
     description:
-      "AQSA ZAM ZAM MIRZA JOHAR BAIG is a Computer Science achiever from Yashwantrao College (Grade O Outstanding, Open Category), specializing in AI/ML, building scalable full-stack applications and cloud architectures on AWS.",
+      "AQSA ZAM ZAM MIRZA JOHAR BAIG is a Computer Science achiever from Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category), specializing in AI/ML, building scalable full-stack applications and cloud architectures on AWS.",
     email: "aqsa***mirza@gmail.com",
     telephone: "+9172******51",
     address: {
@@ -141,7 +143,7 @@ export default function RootLayout({
     alumniOf: [
       {
         "@type": "EducationalOrganization",
-        name: "Yashwantrao College",
+        name: "Y.C. College (Yashwantrao Chavan College)",
         description: "Computer Science Academic Merit — Grade O (Outstanding) — Open Category",
       },
     ],
@@ -363,7 +365,7 @@ export default function RootLayout({
 
             <div className="text-center text-muted-foreground text-sm flex flex-col items-center gap-3 pt-8 border-t border-white/5 w-full">
               <p className="font-semibold text-foreground">AQSA ZAM ZAM MIRZA JOHAR BAIG</p>
-              <p>AI/ML Engineer · Full-Stack Developer · AWS Cloud Practitioner · Yashwantrao College (Grade O Outstanding, Open Category)</p>
+              <p>AI/ML Engineer · Full-Stack Developer · AWS Cloud Practitioner · Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category)</p>
               <p>© {new Date().getFullYear()} All rights reserved. Updated: March 2026</p>
             </div>
           </div>
