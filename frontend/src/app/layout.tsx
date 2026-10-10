@@ -34,9 +34,8 @@ export const metadata: Metadata = {
     "Aqsa Mirza",
     "aqsa mirza",
     "AqsA Johar Baig portfolio",
-    "AqsA Zam Zam Mirza VIIIT PUNE",
+    "AqsA Zam Zam Mirza Yashwantrao College",
     "AqsA Mirza AI ML engineer",
-    "AqsA Zam Zam Mirza IIIT Madras",
     "AqsA Baig Next.js developer",
     "AqsA Zam Zam full stack developer Pune",
     "AqsA Mirza Johar Baig AWS certified",
@@ -47,11 +46,10 @@ export const metadata: Metadata = {
     "AqsA Zam Zam Mirza Medium blog",
     "AqsA Johar Baig Kaggle data science",
     "AqsA Zam Zam Mirza Johar Baig Urdu Shayari",
-    "Computer Science AI ML VIIIT PUNE 2027",
+    "Computer Science Yashwantrao College 2025",
     "AWS Certified Cloud Practitioner student India",
     "Next.js 16 React 19 developer portfolio",
     "Full stack MERN developer Pune Maharashtra",
-    "AI ML engineer IIIT Madras student",
   ],
   authors: [{ name: "Aqsa Zam Zam Mirza Johar Baig (Aqsa Mirza)", url: BASE_URL }],
   creator: "Aqsa Zam Zam Mirza Johar Baig",
@@ -131,7 +129,7 @@ export default function RootLayout({
     image: `${BASE_URL}/profile.png`,
     jobTitle: "AI/ML Engineer & Full-Stack Developer",
     description:
-      "AQSA ZAM ZAM MIRZA JOHAR BAIG is a Computer Science undergraduate at VIIIT PUNE and IIIT Madras, specializing in AI/ML, building scalable full-stack applications and cloud architectures on AWS.",
+      "AQSA ZAM ZAM MIRZA JOHAR BAIG is a Computer Science achiever from Yashwantrao College (Grade O Outstanding, Open Category), specializing in AI/ML, building scalable full-stack applications and cloud architectures on AWS.",
     email: "aqsa***mirza@gmail.com",
     telephone: "+9172******51",
     address: {
@@ -143,15 +141,8 @@ export default function RootLayout({
     alumniOf: [
       {
         "@type": "EducationalOrganization",
-        name: "Vishwakarma Institute of Information Technology (VIIIT), Pune",
-        url: "https://www.VIIIT.ac.in",
-        description: "B.Tech in CSE (AI & ML) — CGPA 8.77 — 2023 to 2027",
-      },
-      {
-        "@type": "EducationalOrganization",
-        name: "Indian Institute of Technology Madras (IIIT Madras)",
-        url: "https://www.iitm.ac.in",
-        description: "BSc in Data Science — CGPA 7.44 — 2023 to 2027",
+        name: "Yashwantrao College",
+        description: "Computer Science Academic Merit — Grade O (Outstanding) — Open Category",
       },
     ],
     knowsAbout: [
@@ -335,7 +326,7 @@ export default function RootLayout({
               <div className="text-center md:text-left">
                 <h3 className="text-foreground font-bold mb-4 uppercase text-xs tracking-widest">Featured Blogs</h3>
                 <nav className="flex flex-col gap-2 text-sm text-muted-foreground">
-                  <Link href="/blog/aqsa-zam-zam-mirza-johar-baig-VIIIT-pune-aws-developer-journey" className="hover:text-primary transition-colors truncate" title="My AWS Developer Journey">AWS Journey</Link>
+                  <Link href="/blog/aqsa-zam-zam-mirza-johar-baig-yashwantrao-college-aws-developer-journey" className="hover:text-primary transition-colors truncate" title="My AWS Developer Journey">AWS Journey</Link>
                   <Link href="/blog/aqsa-zam-zam-mirza-johar-baig-falcovita-ai-health-platform-aws" className="hover:text-primary transition-colors truncate" title="FalcoVita AI Platform">FalcoVita AI</Link>
                   <Link href="/blog/urdu-shayari-aqsa-zam-zam-mirza-johar-baig-tech-meets-poetry" className="hover:text-primary transition-colors truncate" title="When Tech Meets Poetry — Urdu Shayari">Urdu Shayari</Link>
                   <Link href="/blog/top-10-nextjs-16-react-19-tips-aqsa-zam-zam-mirza-johar-baig" className="hover:text-primary transition-colors truncate" title="Top 10 Next.js 16 Tips">Next.js 16 Tips</Link>
@@ -372,7 +363,7 @@ export default function RootLayout({
 
             <div className="text-center text-muted-foreground text-sm flex flex-col items-center gap-3 pt-8 border-t border-white/5 w-full">
               <p className="font-semibold text-foreground">AQSA ZAM ZAM MIRZA JOHAR BAIG</p>
-              <p>AI/ML Engineer · Full-Stack Developer · AWS Cloud Practitioner · VIIIT PUNE & IIIT Madras</p>
+              <p>AI/ML Engineer · Full-Stack Developer · AWS Cloud Practitioner · Yashwantrao College (Grade O Outstanding, Open Category)</p>
               <p>© {new Date().getFullYear()} All rights reserved. Updated: March 2026</p>
             </div>
           </div>

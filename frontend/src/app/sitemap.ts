@@ -80,7 +80,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${BASE_URL}/blog/aqsa-zam-zam-mirza-johar-baig-VIIIT-pune-aws-developer-journey`,
+      url: `${BASE_URL}/blog/aqsa-zam-zam-mirza-johar-baig-yashwantrao-college-aws-developer-journey`,
       lastModified: new Date('2026-03-26'),
       changeFrequency: 'monthly',
       priority: 0.85,

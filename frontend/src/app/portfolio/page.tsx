@@ -44,7 +44,7 @@ export default function PortfolioPage() {
           AQSA ZAM ZAM MIRZA JOHAR BAIG — Portfolio & Projects
         </h1>
         <p className="text-xl text-muted-foreground">
-          As an AI/ML engineer and full-stack developer studying at <strong>VIIIT PUNE</strong> and <strong>IIIT Madras</strong>,
+          As an AI/ML engineer and full-stack developer from <strong>Yashwantrao College</strong> (Grade O Outstanding, Open Category),
           I build production-grade applications. Below are my featured projects — each deployed, functional, and impacting real users.
         </p>
       </div>
@@ -150,11 +150,11 @@ export default function PortfolioPage() {
             <span className="text-primary text-xs mt-3 inline-block">Read article →</span>
           </Link>
           <Link
-            href="/blog/aqsa-zam-zam-mirza-johar-baig-VIIIT-pune-aws-developer-journey"
+            href="/blog/aqsa-zam-zam-mirza-johar-baig-yashwantrao-college-aws-developer-journey"
             className="glass p-5 rounded-xl border border-white/10 hover:border-primary/40 hover:-translate-y-1 transition-all group"
           >
             <h3 className="font-semibold font-outfit text-sm mb-1 group-hover:text-primary transition-colors">
-              My AWS Journey — VIIIT PUNE to Cloud Practitioner
+              My AWS Journey — Yashwantrao College to Cloud Practitioner
             </h3>
             <p className="text-muted-foreground text-xs">AWS · EC2 · S3 · CloudFront · Certification</p>
             <span className="text-primary text-xs mt-3 inline-block">Read article →</span>
